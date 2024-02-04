@@ -1,0 +1,2776 @@
+Dataset:CiteSeer
+pretext:simlearn
+gnn_type:TransformerConv
+usage_par:www23
+the attack method:ours
+target embedding:trigger_graph
+number of trigger nodes:3
+trigger_pattern:trigger_graph
+poison_rate:0.1
+reg_param_trigger_n: 0.05
+reg_param_trigger_f: 0.05
+reg_param_gnn: 0.5
+the selection of the poisoned node: degree_min
+defense_mode: none
+sim_thre: 0.0
+load clean data...
+create PreTrain instance...
+clean pre-training...
+***epoch: 1/400 | train_loss: 0.43571094
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 2/400 | train_loss: 0.43048748
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 3/400 | train_loss: 0.4249613
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 4/400 | train_loss: 0.41478837
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 5/400 | train_loss: 0.41348669
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 6/400 | train_loss: 0.41070151
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 7/400 | train_loss: 0.40761587
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 8/400 | train_loss: 0.39831641
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 9/400 | train_loss: 0.39296225
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 10/400 | train_loss: 0.39279324
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 11/400 | train_loss: 0.38673073
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 12/400 | train_loss: 0.39000311
+***epoch: 13/400 | train_loss: 0.3844831
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 14/400 | train_loss: 0.39052793
+***epoch: 15/400 | train_loss: 0.37591842
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 16/400 | train_loss: 0.37234363
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 17/400 | train_loss: 0.37536559
+***epoch: 18/400 | train_loss: 0.37141848
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 19/400 | train_loss: 0.3706961
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 20/400 | train_loss: 0.35920805
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 21/400 | train_loss: 0.36358252
+***epoch: 22/400 | train_loss: 0.36015859
+***epoch: 23/400 | train_loss: 0.35679716
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 24/400 | train_loss: 0.35202673
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 25/400 | train_loss: 0.36264542
+***epoch: 26/400 | train_loss: 0.36162081
+***epoch: 27/400 | train_loss: 0.35302955
+***epoch: 28/400 | train_loss: 0.35406256
+***epoch: 29/400 | train_loss: 0.34986311
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 30/400 | train_loss: 0.35264567
+***epoch: 31/400 | train_loss: 0.33985472
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 32/400 | train_loss: 0.34591591
+***epoch: 33/400 | train_loss: 0.34014714
+***epoch: 34/400 | train_loss: 0.35288161
+***epoch: 35/400 | train_loss: 0.34845802
+***epoch: 36/400 | train_loss: 0.35223609
+***epoch: 37/400 | train_loss: 0.3465721
+***epoch: 38/400 | train_loss: 0.35052341
+***epoch: 39/400 | train_loss: 0.34910887
+***epoch: 40/400 | train_loss: 0.3489289
+***epoch: 41/400 | train_loss: 0.34412986
+***epoch: 42/400 | train_loss: 0.35015365
+***epoch: 43/400 | train_loss: 0.34255442
+***epoch: 44/400 | train_loss: 0.34694174
+***epoch: 45/400 | train_loss: 0.34049773
+***epoch: 46/400 | train_loss: 0.33434573
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 47/400 | train_loss: 0.33316842
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 48/400 | train_loss: 0.34014228
+***epoch: 49/400 | train_loss: 0.33132213
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 50/400 | train_loss: 0.33226046
+***epoch: 51/400 | train_loss: 0.33421496
+***epoch: 52/400 | train_loss: 0.33725828
+***epoch: 53/400 | train_loss: 0.33353111
+***epoch: 54/400 | train_loss: 0.3375507
+***epoch: 55/400 | train_loss: 0.34231475
+***epoch: 56/400 | train_loss: 0.33565697
+***epoch: 57/400 | train_loss: 0.31573474
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 58/400 | train_loss: 0.32983619
+***epoch: 59/400 | train_loss: 0.33122423
+***epoch: 60/400 | train_loss: 0.33552065
+***epoch: 61/400 | train_loss: 0.32353851
+***epoch: 62/400 | train_loss: 0.32557923
+***epoch: 63/400 | train_loss: 0.32639611
+***epoch: 64/400 | train_loss: 0.33234969
+***epoch: 65/400 | train_loss: 0.33704817
+***epoch: 66/400 | train_loss: 0.33369216
+***epoch: 67/400 | train_loss: 0.32644024
+***epoch: 68/400 | train_loss: 0.32926533
+***epoch: 69/400 | train_loss: 0.32791138
+***epoch: 70/400 | train_loss: 0.322658
+***epoch: 71/400 | train_loss: 0.32399276
+***epoch: 72/400 | train_loss: 0.32061198
+***epoch: 73/400 | train_loss: 0.32132313
+***epoch: 74/400 | train_loss: 0.32660076
+***epoch: 75/400 | train_loss: 0.32948235
+***epoch: 76/400 | train_loss: 0.32318947
+***epoch: 77/400 | train_loss: 0.33052865
+***epoch: 78/400 | train_loss: 0.31423295
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 79/400 | train_loss: 0.32725647
+***epoch: 80/400 | train_loss: 0.33340782
+***epoch: 81/400 | train_loss: 0.32729453
+***epoch: 82/400 | train_loss: 0.31627735
+***epoch: 83/400 | train_loss: 0.32683623
+***epoch: 84/400 | train_loss: 0.3156895
+***epoch: 85/400 | train_loss: 0.31772241
+***epoch: 86/400 | train_loss: 0.32089511
+***epoch: 87/400 | train_loss: 0.32558984
+***epoch: 88/400 | train_loss: 0.30687678
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 89/400 | train_loss: 0.32159415
+***epoch: 90/400 | train_loss: 0.32335442
+***epoch: 91/400 | train_loss: 0.32588485
+***epoch: 92/400 | train_loss: 0.31748694
+***epoch: 93/400 | train_loss: 0.3270095
+***epoch: 94/400 | train_loss: 0.31435066
+***epoch: 95/400 | train_loss: 0.3239443
+***epoch: 96/400 | train_loss: 0.32162195
+***epoch: 97/400 | train_loss: 0.32238719
+***epoch: 98/400 | train_loss: 0.3130897
+***epoch: 99/400 | train_loss: 0.32007483
+***epoch: 100/400 | train_loss: 0.31693485
+***epoch: 101/400 | train_loss: 0.32135031
+***epoch: 102/400 | train_loss: 0.32111549
+***epoch: 103/400 | train_loss: 0.31892094
+***epoch: 104/400 | train_loss: 0.31725317
+***epoch: 105/400 | train_loss: 0.31766406
+***epoch: 106/400 | train_loss: 0.31966037
+***epoch: 107/400 | train_loss: 0.31694597
+***epoch: 108/400 | train_loss: 0.30974162
+***epoch: 109/400 | train_loss: 0.32169738
+***epoch: 110/400 | train_loss: 0.31675312
+***epoch: 111/400 | train_loss: 0.31939876
+***epoch: 112/400 | train_loss: 0.31170338
+***epoch: 113/400 | train_loss: 0.3183237
+***epoch: 114/400 | train_loss: 0.3148213
+***epoch: 115/400 | train_loss: 0.31689835
+***epoch: 116/400 | train_loss: 0.30926761
+***epoch: 117/400 | train_loss: 0.31378928
+***epoch: 118/400 | train_loss: 0.3145346
+***epoch: 119/400 | train_loss: 0.31596994
+***epoch: 120/400 | train_loss: 0.32583827
+***epoch: 121/400 | train_loss: 0.32640859
+***epoch: 122/400 | train_loss: 0.3148641
+***epoch: 123/400 | train_loss: 0.31397679
+***epoch: 124/400 | train_loss: 0.3260282
+***epoch: 125/400 | train_loss: 0.31825444
+***epoch: 126/400 | train_loss: 0.31026655
+***epoch: 127/400 | train_loss: 0.31589532
+***epoch: 128/400 | train_loss: 0.30839056
+***epoch: 129/400 | train_loss: 0.3223342
+***epoch: 130/400 | train_loss: 0.31589669
+***epoch: 131/400 | train_loss: 0.31138709
+***epoch: 132/400 | train_loss: 0.31626001
+***epoch: 133/400 | train_loss: 0.31946364
+***epoch: 134/400 | train_loss: 0.31925896
+***epoch: 135/400 | train_loss: 0.31986383
+***epoch: 136/400 | train_loss: 0.31522888
+***epoch: 137/400 | train_loss: 0.30927774
+***epoch: 138/400 | train_loss: 0.3101953
+***epoch: 139/400 | train_loss: 0.31611395
+***epoch: 140/400 | train_loss: 0.31645146
+***epoch: 141/400 | train_loss: 0.31755474
+***epoch: 142/400 | train_loss: 0.31415284
+***epoch: 143/400 | train_loss: 0.3129912
+***epoch: 144/400 | train_loss: 0.31806582
+***epoch: 145/400 | train_loss: 0.3189238
+***epoch: 146/400 | train_loss: 0.31128365
+***epoch: 147/400 | train_loss: 0.30776465
+***epoch: 148/400 | train_loss: 0.30971858
+***epoch: 149/400 | train_loss: 0.31710094
+***epoch: 150/400 | train_loss: 0.30337903
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 151/400 | train_loss: 0.31067446
+***epoch: 152/400 | train_loss: 0.31079614
+***epoch: 153/400 | train_loss: 0.30961269
+***epoch: 154/400 | train_loss: 0.31607315
+***epoch: 155/400 | train_loss: 0.31080163
+***epoch: 156/400 | train_loss: 0.31741148
+***epoch: 157/400 | train_loss: 0.30898011
+***epoch: 158/400 | train_loss: 0.31418356
+***epoch: 159/400 | train_loss: 0.30191368
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 160/400 | train_loss: 0.30748126
+***epoch: 161/400 | train_loss: 0.31309062
+***epoch: 162/400 | train_loss: 0.31048834
+***epoch: 163/400 | train_loss: 0.30922717
+***epoch: 164/400 | train_loss: 0.30444431
+***epoch: 165/400 | train_loss: 0.31085908
+***epoch: 166/400 | train_loss: 0.31325263
+***epoch: 167/400 | train_loss: 0.30993706
+***epoch: 168/400 | train_loss: 0.30995348
+***epoch: 169/400 | train_loss: 0.32343066
+***epoch: 170/400 | train_loss: 0.32066801
+***epoch: 171/400 | train_loss: 0.30323246
+***epoch: 172/400 | train_loss: 0.32744256
+***epoch: 173/400 | train_loss: 0.31619808
+***epoch: 174/400 | train_loss: 0.30231997
+***epoch: 175/400 | train_loss: 0.30880138
+***epoch: 176/400 | train_loss: 0.31195304
+***epoch: 177/400 | train_loss: 0.30767027
+***epoch: 178/400 | train_loss: 0.30991882
+***epoch: 179/400 | train_loss: 0.30689722
+***epoch: 180/400 | train_loss: 0.30959424
+***epoch: 181/400 | train_loss: 0.31565985
+***epoch: 182/400 | train_loss: 0.30725303
+***epoch: 183/400 | train_loss: 0.30424625
+***epoch: 184/400 | train_loss: 0.31290671
+***epoch: 185/400 | train_loss: 0.30716822
+***epoch: 186/400 | train_loss: 0.30608138
+***epoch: 187/400 | train_loss: 0.30883074
+***epoch: 188/400 | train_loss: 0.31458637
+***epoch: 189/400 | train_loss: 0.30833033
+***epoch: 190/400 | train_loss: 0.31245399
+***epoch: 191/400 | train_loss: 0.30751476
+***epoch: 192/400 | train_loss: 0.31056017
+***epoch: 193/400 | train_loss: 0.31307623
+***epoch: 194/400 | train_loss: 0.31203812
+***epoch: 195/400 | train_loss: 0.31405258
+***epoch: 196/400 | train_loss: 0.3062219
+***epoch: 197/400 | train_loss: 0.31342244
+***epoch: 198/400 | train_loss: 0.31327996
+***epoch: 199/400 | train_loss: 0.31387717
+***epoch: 200/400 | train_loss: 0.30013308
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 201/400 | train_loss: 0.31358752
+***epoch: 202/400 | train_loss: 0.30336639
+***epoch: 203/400 | train_loss: 0.3048811
+***epoch: 204/400 | train_loss: 0.31143448
+***epoch: 205/400 | train_loss: 0.31407559
+***epoch: 206/400 | train_loss: 0.31114349
+***epoch: 207/400 | train_loss: 0.30665487
+***epoch: 208/400 | train_loss: 0.29815918
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 209/400 | train_loss: 0.32220668
+***epoch: 210/400 | train_loss: 0.31075546
+***epoch: 211/400 | train_loss: 0.30930272
+***epoch: 212/400 | train_loss: 0.31077465
+***epoch: 213/400 | train_loss: 0.29714608
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 214/400 | train_loss: 0.31858027
+***epoch: 215/400 | train_loss: 0.30479798
+***epoch: 216/400 | train_loss: 0.30818146
+***epoch: 217/400 | train_loss: 0.3129696
+***epoch: 218/400 | train_loss: 0.3126938
+***epoch: 219/400 | train_loss: 0.31415835
+***epoch: 220/400 | train_loss: 0.30078369
+***epoch: 221/400 | train_loss: 0.30333218
+***epoch: 222/400 | train_loss: 0.31003082
+***epoch: 223/400 | train_loss: 0.30652666
+***epoch: 224/400 | train_loss: 0.30246985
+***epoch: 225/400 | train_loss: 0.30503327
+***epoch: 226/400 | train_loss: 0.3110868
+***epoch: 227/400 | train_loss: 0.30729914
+***epoch: 228/400 | train_loss: 0.31005275
+***epoch: 229/400 | train_loss: 0.30986977
+***epoch: 230/400 | train_loss: 0.30389711
+***epoch: 231/400 | train_loss: 0.30529672
+***epoch: 232/400 | train_loss: 0.30602214
+***epoch: 233/400 | train_loss: 0.30562606
+***epoch: 234/400 | train_loss: 0.30768791
+***epoch: 235/400 | train_loss: 0.30816874
+***epoch: 236/400 | train_loss: 0.30375615
+***epoch: 237/400 | train_loss: 0.30097827
+***epoch: 238/400 | train_loss: 0.30181774
+***epoch: 239/400 | train_loss: 0.30536366
+***epoch: 240/400 | train_loss: 0.30446461
+***epoch: 241/400 | train_loss: 0.304252
+***epoch: 242/400 | train_loss: 0.31204346
+***epoch: 243/400 | train_loss: 0.30433068
+***epoch: 244/400 | train_loss: 0.30720499
+***epoch: 245/400 | train_loss: 0.30733401
+***epoch: 246/400 | train_loss: 0.30698785
+***epoch: 247/400 | train_loss: 0.29918656
+***epoch: 248/400 | train_loss: 0.3063823
+***epoch: 249/400 | train_loss: 0.30045861
+***epoch: 250/400 | train_loss: 0.30423599
+***epoch: 251/400 | train_loss: 0.30256984
+***epoch: 252/400 | train_loss: 0.30665439
+***epoch: 253/400 | train_loss: 0.30561486
+***epoch: 254/400 | train_loss: 0.30961683
+***epoch: 255/400 | train_loss: 0.29817313
+***epoch: 256/400 | train_loss: 0.31066221
+***epoch: 257/400 | train_loss: 0.30426276
+***epoch: 258/400 | train_loss: 0.31907594
+***epoch: 259/400 | train_loss: 0.29844812
+***epoch: 260/400 | train_loss: 0.30773789
+***epoch: 261/400 | train_loss: 0.30527371
+***epoch: 262/400 | train_loss: 0.29782581
+***epoch: 263/400 | train_loss: 0.30272621
+***epoch: 264/400 | train_loss: 0.31016749
+***epoch: 265/400 | train_loss: 0.30672485
+***epoch: 266/400 | train_loss: 0.30125573
+***epoch: 267/400 | train_loss: 0.29808077
+***epoch: 268/400 | train_loss: 0.30849648
+***epoch: 269/400 | train_loss: 0.30617154
+***epoch: 270/400 | train_loss: 0.30770749
+***epoch: 271/400 | train_loss: 0.3151446
+***epoch: 272/400 | train_loss: 0.29492724
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 273/400 | train_loss: 0.30366135
+***epoch: 274/400 | train_loss: 0.30637011
+***epoch: 275/400 | train_loss: 0.29594564
+***epoch: 276/400 | train_loss: 0.30954707
+***epoch: 277/400 | train_loss: 0.30471462
+***epoch: 278/400 | train_loss: 0.29996702
+***epoch: 279/400 | train_loss: 0.30192718
+***epoch: 280/400 | train_loss: 0.31443316
+***epoch: 281/400 | train_loss: 0.31000912
+***epoch: 282/400 | train_loss: 0.3108891
+***epoch: 283/400 | train_loss: 0.29221845
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 284/400 | train_loss: 0.30072665
+***epoch: 285/400 | train_loss: 0.30698723
+***epoch: 286/400 | train_loss: 0.31677812
+***epoch: 287/400 | train_loss: 0.31239411
+***epoch: 288/400 | train_loss: 0.32184368
+***epoch: 289/400 | train_loss: 0.30658734
+***epoch: 290/400 | train_loss: 0.30440685
+***epoch: 291/400 | train_loss: 0.30250427
+***epoch: 292/400 | train_loss: 0.30596557
+***epoch: 293/400 | train_loss: 0.30348182
+***epoch: 294/400 | train_loss: 0.28963381
++++model saved ! CiteSeer.TransformerConv.pth
+***epoch: 295/400 | train_loss: 0.31117174
+***epoch: 296/400 | train_loss: 0.30228716
+***epoch: 297/400 | train_loss: 0.2985546
+***epoch: 298/400 | train_loss: 0.30135283
+***epoch: 299/400 | train_loss: 0.30013201
+***epoch: 300/400 | train_loss: 0.30808777
+***epoch: 301/400 | train_loss: 0.31118101
+***epoch: 302/400 | train_loss: 0.30449826
+***epoch: 303/400 | train_loss: 0.31516665
+***epoch: 304/400 | train_loss: 0.30179456
+***epoch: 305/400 | train_loss: 0.30461842
+***epoch: 306/400 | train_loss: 0.305709
+***epoch: 307/400 | train_loss: 0.30620828
+***epoch: 308/400 | train_loss: 0.30418238
+***epoch: 309/400 | train_loss: 0.30360425
+***epoch: 310/400 | train_loss: 0.30105421
+***epoch: 311/400 | train_loss: 0.3042734
+***epoch: 312/400 | train_loss: 0.29755536
+***epoch: 313/400 | train_loss: 0.31657857
+***epoch: 314/400 | train_loss: 0.31043583
+***epoch: 315/400 | train_loss: 0.3103019
+***epoch: 316/400 | train_loss: 0.29884017
+***epoch: 317/400 | train_loss: 0.29999188
+***epoch: 318/400 | train_loss: 0.30727258
+***epoch: 319/400 | train_loss: 0.30868393
+***epoch: 320/400 | train_loss: 0.31093502
+***epoch: 321/400 | train_loss: 0.30168873
+***epoch: 322/400 | train_loss: 0.30463424
+***epoch: 323/400 | train_loss: 0.29714051
+***epoch: 324/400 | train_loss: 0.30459464
+***epoch: 325/400 | train_loss: 0.30616391
+***epoch: 326/400 | train_loss: 0.30563769
+***epoch: 327/400 | train_loss: 0.31000757
+***epoch: 328/400 | train_loss: 0.29691637
+***epoch: 329/400 | train_loss: 0.30947784
+***epoch: 330/400 | train_loss: 0.31316632
+***epoch: 331/400 | train_loss: 0.30650753
+***epoch: 332/400 | train_loss: 0.3074806
+***epoch: 333/400 | train_loss: 0.30547675
+***epoch: 334/400 | train_loss: 0.2927804
+***epoch: 335/400 | train_loss: 0.30596077
+***epoch: 336/400 | train_loss: 0.30599269
+***epoch: 337/400 | train_loss: 0.30267349
+***epoch: 338/400 | train_loss: 0.2904171
+***epoch: 339/400 | train_loss: 0.30903387
+***epoch: 340/400 | train_loss: 0.30134833
+***epoch: 341/400 | train_loss: 0.30093521
+***epoch: 342/400 | train_loss: 0.29365423
+***epoch: 343/400 | train_loss: 0.31292242
+***epoch: 344/400 | train_loss: 0.30615675
+***epoch: 345/400 | train_loss: 0.29492936
+***epoch: 346/400 | train_loss: 0.30353111
+***epoch: 347/400 | train_loss: 0.30426687
+***epoch: 348/400 | train_loss: 0.29884663
+***epoch: 349/400 | train_loss: 0.29747629
+***epoch: 350/400 | train_loss: 0.29372835
+***epoch: 351/400 | train_loss: 0.29928261
+***epoch: 352/400 | train_loss: 0.29968661
+***epoch: 353/400 | train_loss: 0.30419809
+***epoch: 354/400 | train_loss: 0.30999497
+***epoch: 355/400 | train_loss: 0.30051699
+***epoch: 356/400 | train_loss: 0.29454702
+***epoch: 357/400 | train_loss: 0.3119863
+***epoch: 358/400 | train_loss: 0.31005907
+***epoch: 359/400 | train_loss: 0.30310786
+***epoch: 360/400 | train_loss: 0.30051067
+***epoch: 361/400 | train_loss: 0.30541992
+***epoch: 362/400 | train_loss: 0.30627972
+***epoch: 363/400 | train_loss: 0.30219167
+***epoch: 364/400 | train_loss: 0.30321974
+***epoch: 365/400 | train_loss: 0.30703464
+***epoch: 366/400 | train_loss: 0.31004947
+***epoch: 367/400 | train_loss: 0.30432028
+***epoch: 368/400 | train_loss: 0.29672688
+***epoch: 369/400 | train_loss: 0.30730504
+***epoch: 370/400 | train_loss: 0.29366368
+***epoch: 371/400 | train_loss: 0.29275513
+***epoch: 372/400 | train_loss: 0.30184498
+***epoch: 373/400 | train_loss: 0.29533821
+***epoch: 374/400 | train_loss: 0.29244331
+***epoch: 375/400 | train_loss: 0.29747775
+***epoch: 376/400 | train_loss: 0.30181122
+***epoch: 377/400 | train_loss: 0.30124044
+***epoch: 378/400 | train_loss: 0.30750716
+***epoch: 379/400 | train_loss: 0.30717781
+***epoch: 380/400 | train_loss: 0.29418406
+***epoch: 381/400 | train_loss: 0.3045966
+***epoch: 382/400 | train_loss: 0.30234483
+***epoch: 383/400 | train_loss: 0.29871857
+***epoch: 384/400 | train_loss: 0.31627443
+***epoch: 385/400 | train_loss: 0.31021589
+***epoch: 386/400 | train_loss: 0.29676682
+***epoch: 387/400 | train_loss: 0.30810219
+***epoch: 388/400 | train_loss: 0.29885072
+***epoch: 389/400 | train_loss: 0.30328965
+***epoch: 390/400 | train_loss: 0.29526946
+***epoch: 391/400 | train_loss: 0.29827806
+***epoch: 392/400 | train_loss: 0.30527014
+***epoch: 393/400 | train_loss: 0.30631194
+***epoch: 394/400 | train_loss: 0.30391699
+***epoch: 395/400 | train_loss: 0.29899296
+***epoch: 396/400 | train_loss: 0.30694744
+***epoch: 397/400 | train_loss: 0.28994027
+***epoch: 398/400 | train_loss: 0.30508503
+***epoch: 399/400 | train_loss: 0.3050898
+***epoch: 400/400 | train_loss: 0.30351824
+make the target embedding for backdoor...
+target_embedding is the output embedding of the trigger graph
+backdoor pre-training...
+epoch:1/1 | trigger total loss:-155.54668420553207, lp loss:-182.54423761367798, ln loss:184.20081520080566, loss_lf:-9.338304025412071
+epoch:1/2 | trigger total loss:-165.48997938632965, lp loss:-192.07768207788467, ln loss:171.97386425733566, loss_lf:-24.375262297224253
+epoch:1/3 | trigger total loss:-168.1986271739006, lp loss:-194.22286731004715, ln loss:166.1048164665699, loss_lf:-34.065831020474434
+epoch:1/4 | trigger total loss:-169.81069976091385, lp loss:-195.4550628066063, ln loss:162.09596940875053, loss_lf:-40.118917579296976
+epoch:1/5 | trigger total loss:-170.80391097068787, lp loss:-196.20554584264755, ln loss:159.4918882548809, loss_lf:-43.870378855615854
+epoch:1/6 | trigger total loss:-171.4757046699524, lp loss:-196.715780377388, ln loss:157.64368253946304, loss_lf:-46.27382071316242
+epoch:1/7 | trigger total loss:-171.96633434295654, lp loss:-197.09182649850845, ln loss:156.21849897503853, loss_lf:-47.89240023493767
+epoch:1/8 | trigger total loss:-172.34594821929932, lp loss:-197.38506025075912, ln loss:155.0420982837677, loss_lf:-49.03006324544549
+epoch:1/9 | trigger total loss:-172.6575773358345, lp loss:-197.6241946220398, ln loss:154.00952365994453, loss_lf:-49.92566616088152
+epoch:1/10 | trigger total loss:-172.92710328102112, lp loss:-197.82869082689285, ln loss:153.03242655098438, loss_lf:-50.65814849734306
+epoch:1/11 | trigger total loss:-173.16453301906586, lp loss:-198.00484770536423, ln loss:152.1371791511774, loss_lf:-51.34067090600729
+epoch:1/12 | trigger total loss:-173.3754203915596, lp loss:-198.15803480148315, ln loss:151.37435162067413, loss_lf:-52.03822968155146
+epoch:1/13 | trigger total loss:-173.5697613954544, lp loss:-198.29639810323715, ln loss:150.72229453921318, loss_lf:-52.782435066998005
+epoch:1/14 | trigger total loss:-173.75225764513016, lp loss:-198.42333686351776, ln loss:150.15662196278572, loss_lf:-53.581803888082504
+epoch:1/15 | trigger total loss:-173.92109900712967, lp loss:-198.5375398993492, ln loss:149.6717868745327, loss_lf:-54.41813028603792
+epoch:1/1 | enconder total loss:-184.7564188838005, lt loss:-183.50548189878464, ld loss:-186.00735622644424
+epoch:1/2 | enconder total loss:-185.4820095896721, lt loss:-184.9476663172245, ld loss:-186.0163535475731
+epoch:1/3 | enconder total loss:-186.0584522485733, lt loss:-185.22362756729126, ld loss:-186.89327669143677
+epoch:1/4 | enconder total loss:-188.98790681362152, lt loss:-190.21056407690048, ld loss:-187.76524984836578
+epoch:1/5 | enconder total loss:-189.1981857419014, lt loss:-190.40773332118988, ld loss:-187.9886378645897
+epoch:1/6 | enconder total loss:-188.77890825271606, lt loss:-189.62847712635994, ld loss:-187.92933982610703
+epoch:1/7 | enconder total loss:-188.13868689537048, lt loss:-188.47725561261177, ld loss:-187.80011761188507
+epoch:1/8 | enconder total loss:-189.67600443959236, lt loss:-191.08403868228197, ld loss:-188.26797080039978
+epoch:1/9 | enconder total loss:-187.43234306573868, lt loss:-187.5128577053547, ld loss:-187.3518278002739
+epoch:1/10 | enconder total loss:-187.41305589675903, lt loss:-186.40060935541987, ld loss:-188.42550283670425
+epoch:2/1 | trigger total loss:-174.5891109108925, lp loss:-197.73090958595276, ln loss:122.37556809931993, loss_lf:-55.00148596614599
+epoch:2/2 | trigger total loss:-174.90462696552277, lp loss:-197.9987862110138, ln loss:121.14408631622791, loss_lf:-55.258554846048355
+epoch:2/3 | trigger total loss:-175.1480256319046, lp loss:-198.1971607208252, ln loss:120.1737708747387, loss_lf:-55.585478380322456
+epoch:2/4 | trigger total loss:-175.34792399406433, lp loss:-198.35317420959473, ln loss:119.37262815609574, loss_lf:-55.97404149919748
+epoch:2/5 | trigger total loss:-175.51848870515823, lp loss:-198.48129457235336, ln loss:118.6880348213017, loss_lf:-56.39458926022053
+epoch:2/6 | trigger total loss:-175.66776394844055, lp loss:-198.58989149332047, ln loss:118.09184084460139, loss_lf:-56.829159669578075
+epoch:2/7 | trigger total loss:-175.8005285859108, lp loss:-198.68405371904373, ln loss:117.55958638340235, loss_lf:-57.25729539990425
+epoch:2/8 | trigger total loss:-175.9203395843506, lp loss:-198.76723891496658, ln loss:117.07477906346321, loss_lf:-57.671347603201866
+epoch:2/9 | trigger total loss:-176.0293076634407, lp loss:-198.8416287302971, ln loss:116.62778390198946, loss_lf:-58.06469613313675
+epoch:2/10 | trigger total loss:-176.1291902065277, lp loss:-198.9087674021721, ln loss:116.21408889442682, loss_lf:-58.440170742571354
+epoch:2/11 | trigger total loss:-176.22125500440598, lp loss:-198.96969765424728, ln loss:115.82602449133992, loss_lf:-58.796651639044285
+epoch:2/12 | trigger total loss:-176.3066036105156, lp loss:-199.02532970905304, ln loss:115.46047327667475, loss_lf:-59.136687219142914
+epoch:2/13 | trigger total loss:-176.3861684203148, lp loss:-199.07657665014267, ln loss:115.11733819544315, loss_lf:-59.46240531653166
+epoch:2/14 | trigger total loss:-176.46062982082367, lp loss:-199.1240051984787, ln loss:114.79384181648493, loss_lf:-59.77443290501833
+epoch:2/15 | trigger total loss:-176.53051602840424, lp loss:-199.1680707335472, ln loss:114.48763689026237, loss_lf:-60.072782926261425
+epoch:2/1 | enconder total loss:-183.85888177156448, lt loss:-179.079189106822, ld loss:-188.6385741829872
+epoch:2/2 | enconder total loss:-189.97109657526016, lt loss:-190.9750657081604, ld loss:-188.96712791919708
+epoch:2/3 | enconder total loss:-189.33013340830803, lt loss:-189.2082409746945, ld loss:-189.45202457904816
+epoch:2/4 | enconder total loss:-188.01091995835304, lt loss:-186.90454990044236, ld loss:-189.11729091405869
+epoch:2/5 | enconder total loss:-191.40582072734833, lt loss:-193.93014600872993, ld loss:-188.88149631023407
+epoch:2/6 | enconder total loss:-190.04738241434097, lt loss:-190.77692130208015, ld loss:-189.31784403324127
+epoch:2/7 | enconder total loss:-190.07720583677292, lt loss:-191.0922822728753, ld loss:-189.06212997436523
+epoch:2/8 | enconder total loss:-190.6305484175682, lt loss:-191.57920426130295, ld loss:-189.6818932890892
+epoch:2/9 | enconder total loss:-191.82087779045105, lt loss:-193.92103081010282, ld loss:-189.72072559595108
+epoch:2/10 | enconder total loss:-152.4962843954563, lt loss:-120.32770221680403, ld loss:-184.66486650705338
+epoch:3/1 | trigger total loss:-176.79451912641525, lp loss:-199.20740854740143, ln loss:110.05628494918346, loss_lf:-60.21339537203312
+epoch:3/2 | trigger total loss:-176.86885637044907, lp loss:-199.26175689697266, ln loss:109.52856783568859, loss_lf:-60.1941494718194
+epoch:3/3 | trigger total loss:-176.93332833051682, lp loss:-199.30438780784607, ln loss:109.0923033207655, loss_lf:-60.27998937666416
+epoch:3/4 | trigger total loss:-176.9927186369896, lp loss:-199.34009903669357, ln loss:108.71004824340343, loss_lf:-60.44274094700813
+epoch:3/5 | trigger total loss:-177.048568546772, lp loss:-199.37103921175003, ln loss:108.36511035263538, loss_lf:-60.65786227583885
+epoch:3/6 | trigger total loss:-177.10158532857895, lp loss:-199.3987495303154, ln loss:108.04533740133047, loss_lf:-60.89966619759798
+epoch:3/7 | trigger total loss:-177.15218442678452, lp loss:-199.42419308423996, ln loss:107.74293917417526, loss_lf:-61.1512581333518
+epoch:3/8 | trigger total loss:-177.20066517591476, lp loss:-199.4477585554123, ln loss:107.45447780191898, loss_lf:-61.408214181661606
+epoch:3/9 | trigger total loss:-177.24718183279037, lp loss:-199.4696437716484, ln loss:107.17902994155884, loss_lf:-61.66916986554861
+epoch:3/10 | trigger total loss:-177.29185676574707, lp loss:-199.49010175466537, ln loss:106.91569291055202, loss_lf:-61.93108782172203
+epoch:3/11 | trigger total loss:-177.33493840694427, lp loss:-199.5092784166336, ln loss:106.66105718910694, loss_lf:-62.19289172440767
+epoch:3/12 | trigger total loss:-177.37677747011185, lp loss:-199.52675032615662, ln loss:106.39252978563309, loss_lf:-62.44666434824467
+epoch:3/13 | trigger total loss:-177.417698264122, lp loss:-199.54463505744934, ln loss:106.14846548438072, loss_lf:-62.69908616691828
+epoch:3/14 | trigger total loss:-177.4559034705162, lp loss:-199.56080782413483, ln loss:105.9204308912158, loss_lf:-62.94404388219118
+epoch:3/15 | trigger total loss:-177.49281013011932, lp loss:-199.57609122991562, ln loss:105.69712752103806, loss_lf:-63.183772191405296
+epoch:3/1 | enconder total loss:-183.48112338781357, lt loss:-179.64418098330498, ld loss:-187.31806588172913
+epoch:3/2 | enconder total loss:-184.76299107074738, lt loss:-180.77162665128708, ld loss:-188.7543551325798
+epoch:3/3 | enconder total loss:-183.67134422063828, lt loss:-177.97509279847145, ld loss:-189.36759597063065
+epoch:3/4 | enconder total loss:-187.61592608690262, lt loss:-185.49950754642487, ld loss:-189.73234450817108
+epoch:3/5 | enconder total loss:-185.65160930156708, lt loss:-181.65182141959667, ld loss:-189.6513975262642
+epoch:3/6 | enconder total loss:-184.58505773544312, lt loss:-179.18598490953445, ld loss:-189.98413002490997
+epoch:3/7 | enconder total loss:-177.95632928609848, lt loss:-167.78913907706738, ld loss:-188.12351936101913
+epoch:3/8 | enconder total loss:-180.6236423254013, lt loss:-171.9252518042922, ld loss:-189.32203382253647
+epoch:3/9 | enconder total loss:-188.85868310928345, lt loss:-188.70897510647774, ld loss:-189.00839203596115
+epoch:3/10 | enconder total loss:-187.40175241231918, lt loss:-185.50638109445572, ld loss:-189.2971249818802
+epoch:4/1 | trigger total loss:-181.5181058049202, lp loss:-199.75849330425262, ln loss:28.836663590278476, loss_lf:-63.54599767178297
+epoch:4/2 | trigger total loss:-181.5741081237793, lp loss:-199.76277858018875, ln loss:28.287730142939836, loss_lf:-64.03996208310127
+epoch:4/3 | trigger total loss:-181.6255122423172, lp loss:-199.767800450325, ln loss:27.769850415643305, loss_lf:-64.45977179706097
+epoch:4/4 | trigger total loss:-181.67167723178864, lp loss:-199.77245235443115, ln loss:27.28474069852382, loss_lf:-64.81423836946487
+epoch:4/5 | trigger total loss:-181.71626925468445, lp loss:-199.77717649936676, ln loss:26.789757627993822, loss_lf:-65.12605038285255
+epoch:4/6 | trigger total loss:-181.75709289312363, lp loss:-199.7809802889824, ln loss:26.324322182685137, loss_lf:-65.40860213339329
+epoch:4/7 | trigger total loss:-181.79583913087845, lp loss:-199.78381007909775, ln loss:25.847459889482707, loss_lf:-65.65574884414673
+epoch:4/8 | trigger total loss:-181.8360372185707, lp loss:-199.7885241508484, ln loss:25.349221301730722, loss_lf:-65.87660399079323
+epoch:4/9 | trigger total loss:-181.83770275115967, lp loss:-199.76596534252167, ln loss:25.09557042643428, loss_lf:-66.06233111023903
+epoch:4/10 | trigger total loss:-181.86710184812546, lp loss:-199.77006268501282, ln loss:24.75982852978632, loss_lf:-66.24081337451935
+epoch:4/11 | trigger total loss:-181.89031553268433, lp loss:-199.7696744799614, ln loss:24.459902258589864, loss_lf:-66.41215828061104
+epoch:4/12 | trigger total loss:-181.91595071554184, lp loss:-199.77093851566315, ln loss:24.107195630669594, loss_lf:-66.54939597845078
+epoch:4/13 | trigger total loss:-181.93967062234879, lp loss:-199.77208948135376, ln loss:23.77750817965716, loss_lf:-66.67339861392975
+epoch:4/14 | trigger total loss:-181.9670494198799, lp loss:-199.77604794502258, ln loss:23.4302268656902, loss_lf:-66.80243501067162
+epoch:4/15 | trigger total loss:-181.91683888435364, lp loss:-199.69748812913895, ln loss:23.005672896280885, loss_lf:-66.78775830566883
+epoch:4/1 | enconder total loss:-186.2600804567337, lt loss:-182.65214683115482, ld loss:-189.8680136203766
+epoch:4/2 | enconder total loss:-182.0388617515564, lt loss:-174.28554420173168, ld loss:-189.79218012094498
+epoch:4/3 | enconder total loss:-185.3043001294136, lt loss:-181.38409280776978, ld loss:-189.22450762987137
+epoch:4/4 | enconder total loss:-186.50784224271774, lt loss:-183.41144514083862, ld loss:-189.60423910617828
+epoch:4/5 | enconder total loss:-185.23004785180092, lt loss:-180.97878171503544, ld loss:-189.48131382465363
+epoch:4/6 | enconder total loss:-186.76767003536224, lt loss:-183.85816431045532, ld loss:-189.6771760582924
+epoch:4/7 | enconder total loss:-186.03547984361649, lt loss:-182.1558258086443, ld loss:-189.91513442993164
+epoch:4/8 | enconder total loss:-184.87794595956802, lt loss:-180.0475222170353, ld loss:-189.70837008953094
+epoch:4/9 | enconder total loss:-185.089231133461, lt loss:-180.22212948277593, ld loss:-189.95633351802826
+epoch:4/10 | enconder total loss:-185.51635766029358, lt loss:-180.86442121863365, ld loss:-190.1682943701744
+epoch:5/1 | trigger total loss:-182.40272045135498, lp loss:-199.68453496694565, ln loss:12.97801949782297, loss_lf:-66.71087628602982
+epoch:5/2 | trigger total loss:-182.45081496238708, lp loss:-199.6992751955986, ln loss:12.50828674575314, loss_lf:-66.93772554397583
+epoch:5/3 | trigger total loss:-182.48577624559402, lp loss:-199.7208000421524, ln loss:12.165070801973343, loss_lf:-66.90626886487007
+epoch:5/4 | trigger total loss:-182.53134459257126, lp loss:-199.72764319181442, ln loss:11.718537042848766, loss_lf:-67.24794505536556
+epoch:5/5 | trigger total loss:-182.5593968629837, lp loss:-199.7311961054802, ln loss:11.405693573411554, loss_lf:-67.43218696117401
+epoch:5/6 | trigger total loss:-182.57736039161682, lp loss:-199.73901039361954, ln loss:11.2349204570055, loss_lf:-67.48003044724464
+epoch:5/7 | trigger total loss:-182.6038852930069, lp loss:-199.74403017759323, ln loss:10.967835267540067, loss_lf:-67.65309493243694
+epoch:5/8 | trigger total loss:-182.62510699033737, lp loss:-199.74810308218002, ln loss:10.741207431768999, loss_lf:-67.77757881581783
+epoch:5/9 | trigger total loss:-182.64600056409836, lp loss:-199.7524346113205, ln loss:10.530849508009851, loss_lf:-67.90712343156338
+epoch:5/10 | trigger total loss:-182.65833455324173, lp loss:-199.75155609846115, ln loss:10.396202725823969, loss_lf:-68.03497938811779
+epoch:5/11 | trigger total loss:-182.67844188213348, lp loss:-199.7613263130188, ln loss:10.227393364300951, loss_lf:-68.0924571454525
+epoch:5/12 | trigger total loss:-182.69724637269974, lp loss:-199.76473546028137, ln loss:10.039075882174075, loss_lf:-68.21884548664093
+epoch:5/13 | trigger total loss:-182.71498048305511, lp loss:-199.76756954193115, ln loss:9.859370133839548, loss_lf:-68.34281472861767
+epoch:5/14 | trigger total loss:-182.72883516550064, lp loss:-199.76946711540222, ln loss:9.72983729164116, loss_lf:-68.45621554553509
+epoch:5/15 | trigger total loss:-182.7390667796135, lp loss:-199.7697253227234, ln loss:9.63697493239306, loss_lf:-68.56333966553211
+epoch:5/1 | enconder total loss:-186.56753060221672, lt loss:-182.9805135279894, ld loss:-190.15454745292664
+epoch:5/2 | enconder total loss:-187.63568603992462, lt loss:-184.91783597320318, ld loss:-190.35353636741638
+epoch:5/3 | enconder total loss:-190.4233474135399, lt loss:-191.06672879308462, ld loss:-189.77996599674225
+epoch:5/4 | enconder total loss:-189.9440063238144, lt loss:-189.76544405519962, ld loss:-190.12256914377213
+epoch:5/5 | enconder total loss:-188.35631608963013, lt loss:-186.3975307866931, ld loss:-190.3151004910469
+epoch:5/6 | enconder total loss:-187.80269530415535, lt loss:-185.21936548501253, ld loss:-190.38602524995804
+epoch:5/7 | enconder total loss:-104.98681756854057, lt loss:-20.020847463980317, ld loss:-189.95278787612915
+epoch:5/8 | enconder total loss:-189.79502803087234, lt loss:-189.28622752428055, ld loss:-190.30382877588272
+epoch:5/9 | enconder total loss:-188.1224966943264, lt loss:-185.64877051487565, ld loss:-190.59622311592102
+epoch:5/10 | enconder total loss:-188.63614863157272, lt loss:-186.86615950614214, ld loss:-190.40613782405853
+epoch:6/1 | trigger total loss:-182.99109709262848, lp loss:-199.8206632733345, ln loss:5.654801169177517, loss_lf:-68.70488399267197
+epoch:6/2 | trigger total loss:-183.00564014911652, lp loss:-199.8178129196167, ln loss:5.565891376463696, loss_lf:-68.95813392102718
+epoch:6/3 | trigger total loss:-183.0229172706604, lp loss:-199.8147456049919, ln loss:5.402727920562029, loss_lf:-69.19573457539082
+epoch:6/4 | trigger total loss:-183.03849667310715, lp loss:-199.81307470798492, ln loss:5.259664490818977, loss_lf:-69.39433081448078
+epoch:6/5 | trigger total loss:-183.0523555278778, lp loss:-199.81195729970932, ln loss:5.138331409543753, loss_lf:-69.57029734551907
+epoch:6/6 | trigger total loss:-183.06366497278214, lp loss:-199.81149357557297, ln loss:5.062370400875807, loss_lf:-69.72886066138744
+epoch:6/7 | trigger total loss:-183.07109946012497, lp loss:-199.8128662109375, ln loss:5.070562299340963, loss_lf:-69.86104190349579
+epoch:6/8 | trigger total loss:-183.08371096849442, lp loss:-199.81259870529175, ln loss:4.971219122409821, loss_lf:-70.01875592768192
+epoch:6/9 | trigger total loss:-183.09654968976974, lp loss:-199.81206619739532, ln loss:4.845791008556262, loss_lf:-70.15969361364841
+epoch:6/10 | trigger total loss:-183.10596483945847, lp loss:-199.81245678663254, ln loss:4.783034821040928, loss_lf:-70.2781923264265
+epoch:6/11 | trigger total loss:-183.1151562333107, lp loss:-199.81117087602615, ln loss:4.693814289057627, loss_lf:-70.39595367014408
+epoch:6/12 | trigger total loss:-183.1161054968834, lp loss:-199.8166236281395, ln loss:4.827192801516503, loss_lf:-70.45014886558056
+epoch:6/13 | trigger total loss:-183.12796825170517, lp loss:-199.81634551286697, ln loss:4.714221747592092, loss_lf:-70.57945522665977
+epoch:6/14 | trigger total loss:-183.13915294408798, lp loss:-199.81609934568405, ln loss:4.601933468133211, loss_lf:-70.69529122114182
+epoch:6/15 | trigger total loss:-183.14956378936768, lp loss:-199.81583452224731, ln loss:4.497009941143915, loss_lf:-70.80334912240505
+epoch:6/1 | enconder total loss:-187.7798497378826, lt loss:-184.89237191528082, ld loss:-190.6673275232315
+epoch:6/2 | enconder total loss:-187.98234474658966, lt loss:-185.34209595620632, ld loss:-190.62259370088577
+epoch:6/3 | enconder total loss:-191.74275147914886, lt loss:-192.99194744601846, ld loss:-190.49355560541153
+epoch:6/4 | enconder total loss:-190.1000429391861, lt loss:-189.43741683661938, ld loss:-190.762668967247
+epoch:6/5 | enconder total loss:-190.57837575674057, lt loss:-190.71628157794476, ld loss:-190.4404692053795
+epoch:6/6 | enconder total loss:-189.06555953621864, lt loss:-187.50916635245085, ld loss:-190.62195271253586
+epoch:6/7 | enconder total loss:-190.43180257081985, lt loss:-190.47977399080992, ld loss:-190.38383108377457
+epoch:6/8 | enconder total loss:-189.8778074979782, lt loss:-188.9154297746718, ld loss:-190.8401861190796
+epoch:6/9 | enconder total loss:-109.86364367604256, lt loss:-28.895541600883007, ld loss:-190.83174580335617
+epoch:6/10 | enconder total loss:-188.68761110305786, lt loss:-186.47351416572928, ld loss:-190.90170788764954
+epoch:7/1 | trigger total loss:-182.9735328555107, lp loss:-199.77506756782532, ln loss:7.366204540710896, loss_lf:-70.88571459054947
+epoch:7/2 | trigger total loss:-182.98650109767914, lp loss:-199.77841937541962, ln loss:7.224280988797545, loss_lf:-70.94283963739872
+epoch:7/3 | trigger total loss:-182.99812096357346, lp loss:-199.78124475479126, ln loss:7.102832492440939, loss_lf:-71.00293605029583
+epoch:7/4 | trigger total loss:-183.00482016801834, lp loss:-199.7848646044731, ln loss:7.098329234402627, loss_lf:-71.0672600120306
+epoch:7/5 | trigger total loss:-183.01528733968735, lp loss:-199.78686153888702, ln loss:6.998834834434092, loss_lf:-71.14114297926426
+epoch:7/6 | trigger total loss:-183.02606105804443, lp loss:-199.78711712360382, ln loss:6.862397208111361, loss_lf:-71.21559016406536
+epoch:7/7 | trigger total loss:-183.03632539510727, lp loss:-199.78752529621124, ln loss:6.734125022077933, loss_lf:-71.28525161743164
+epoch:7/8 | trigger total loss:-183.04231518507004, lp loss:-199.7869468331337, ln loss:6.667036859784275, loss_lf:-71.34838615357876
+epoch:7/9 | trigger total loss:-183.050217628479, lp loss:-199.79194235801697, ln loss:6.662664144998416, loss_lf:-71.41215124726295
+epoch:7/10 | trigger total loss:-183.060092151165, lp loss:-199.79164564609528, ln loss:6.52895283466205, loss_lf:-71.48124279081821
+epoch:7/11 | trigger total loss:-183.06963515281677, lp loss:-199.79164016246796, ln loss:6.399923572316766, loss_lf:-71.54320238530636
+epoch:7/12 | trigger total loss:-183.0782020688057, lp loss:-199.79277616739273, ln loss:6.306070485850796, loss_lf:-71.60022178292274
+epoch:7/13 | trigger total loss:-183.08087170124054, lp loss:-199.79425084590912, ln loss:6.328612447716296, loss_lf:-71.64961344003677
+epoch:7/14 | trigger total loss:-183.0790919661522, lp loss:-199.80087453126907, ln loss:6.500963404541835, loss_lf:-71.66715216636658
+epoch:7/15 | trigger total loss:-183.08405017852783, lp loss:-199.8004913330078, ln loss:6.431255120318383, loss_lf:-71.70349134504795
+epoch:7/1 | enconder total loss:-187.8595957159996, lt loss:-185.3992425724864, ld loss:-190.31994819641113
+epoch:7/2 | enconder total loss:-186.06113931536674, lt loss:-181.25430507212877, ld loss:-190.86797457933426
+epoch:7/3 | enconder total loss:-189.53194117546082, lt loss:-187.7956515364349, ld loss:-191.26823061704636
+epoch:7/4 | enconder total loss:-187.2831655740738, lt loss:-183.52998410351574, ld loss:-191.03634810447693
+epoch:7/5 | enconder total loss:-187.26958402991295, lt loss:-183.68086996674538, ld loss:-190.85829854011536
+epoch:7/6 | enconder total loss:-111.94819828867912, lt loss:-33.190486773848534, ld loss:-190.70590883493423
+epoch:7/7 | enconder total loss:-178.59443163871765, lt loss:-167.12738612294197, ld loss:-190.0614772439003
+epoch:7/8 | enconder total loss:-181.47922587394714, lt loss:-172.236680239439, ld loss:-190.72177070379257
+epoch:7/9 | enconder total loss:-188.0692971944809, lt loss:-184.9930332005024, ld loss:-191.14556217193604
+epoch:7/10 | enconder total loss:-189.08242011070251, lt loss:-187.72202461957932, ld loss:-190.44281500577927
+epoch:8/1 | trigger total loss:-182.94478297233582, lp loss:-199.73931312561035, ln loss:8.158288578270003, loss_lf:-71.74640327692032
+epoch:8/2 | trigger total loss:-182.95317870378494, lp loss:-199.7444892525673, ln loss:8.103692683158442, loss_lf:-71.76655565202236
+epoch:8/3 | trigger total loss:-182.96080774068832, lp loss:-199.74828773736954, ln loss:8.04046664852649, loss_lf:-71.78753510117531
+epoch:8/4 | trigger total loss:-182.96817165613174, lp loss:-199.75148212909698, ln loss:7.974997267359868, loss_lf:-71.8118361979723
+epoch:8/5 | trigger total loss:-182.9753062725067, lp loss:-199.75420254468918, ln loss:7.909360647667199, loss_lf:-71.83992005884647
+epoch:8/6 | trigger total loss:-182.98230361938477, lp loss:-199.75664633512497, ln loss:7.844126906245947, loss_lf:-71.87064434587955
+epoch:8/7 | trigger total loss:-182.98921167850494, lp loss:-199.75889337062836, ln loss:7.778768942924216, loss_lf:-71.90299719572067
+epoch:8/8 | trigger total loss:-182.99536204338074, lp loss:-199.7606942653656, ln loss:7.721552094211802, loss_lf:-71.93635505437851
+epoch:8/9 | trigger total loss:-183.00205844640732, lp loss:-199.76275044679642, ln loss:7.65821531531401, loss_lf:-71.96995781362057
+epoch:8/10 | trigger total loss:-183.00861233472824, lp loss:-199.76503556966782, ln loss:7.598459949251264, loss_lf:-72.00014886260033
+epoch:8/11 | trigger total loss:-183.01391631364822, lp loss:-199.7676050066948, ln loss:7.561010437086225, loss_lf:-72.02252350747585
+epoch:8/12 | trigger total loss:-183.0202379822731, lp loss:-199.76916074752808, ln loss:7.502428006846458, loss_lf:-72.06238169968128
+epoch:8/13 | trigger total loss:-183.0251523256302, lp loss:-199.7712129354477, ln loss:7.470988478045911, loss_lf:-72.09226888418198
+epoch:8/14 | trigger total loss:-183.0247414112091, lp loss:-199.77339059114456, ln loss:7.542518647620454, loss_lf:-72.11638478934765
+epoch:8/15 | trigger total loss:-183.03050690889359, lp loss:-199.773362159729, ln loss:7.467273691203445, loss_lf:-72.15697702765465
+epoch:8/1 | enconder total loss:-186.07848298549652, lt loss:-181.05281318724155, ld loss:-191.1041523218155
+epoch:8/2 | enconder total loss:-189.44158601760864, lt loss:-188.21960968524218, ld loss:-190.66356176137924
+epoch:8/3 | enconder total loss:-188.44330829381943, lt loss:-186.2164241746068, ld loss:-190.6701918244362
+epoch:8/4 | enconder total loss:-185.5894227027893, lt loss:-180.23763850331306, ld loss:-190.94120639562607
+epoch:8/5 | enconder total loss:-186.90428256988525, lt loss:-183.06743469834328, ld loss:-190.7411305308342
+epoch:8/6 | enconder total loss:-186.35461378097534, lt loss:-181.80746632814407, ld loss:-190.90176087617874
+epoch:8/7 | enconder total loss:-188.3185517191887, lt loss:-185.8008056282997, ld loss:-190.83629995584488
+epoch:8/8 | enconder total loss:-188.93749284744263, lt loss:-186.88226655125618, ld loss:-190.99271857738495
+epoch:8/9 | enconder total loss:-181.03188395500183, lt loss:-171.24814141914248, ld loss:-190.81562638282776
+epoch:8/10 | enconder total loss:-143.26834106445312, lt loss:-96.40825897082686, ld loss:-190.1284247636795
+epoch:9/1 | trigger total loss:-178.07375246286392, lp loss:-197.45258963108063, ln loss:63.865913063287735, loss_lf:-71.19443619251251
+epoch:9/2 | trigger total loss:-179.47644287347794, lp loss:-198.7375984787941, ln loss:56.894677862524986, loss_lf:-69.14685007929802
+epoch:9/3 | trigger total loss:-179.89949882030487, lp loss:-199.0371879339218, ln loss:52.99521517008543, loss_lf:-68.31589569151402
+epoch:9/4 | trigger total loss:-180.05264365673065, lp loss:-199.13911819458008, ln loss:51.296165250241756, loss_lf:-67.84500190615654
+epoch:9/5 | trigger total loss:-180.1407269835472, lp loss:-199.1949030160904, ln loss:50.25958779454231, loss_lf:-67.5659512579441
+epoch:9/6 | trigger total loss:-180.20825189352036, lp loss:-199.23488932847977, ln loss:49.400511249899864, loss_lf:-67.33761976659298
+epoch:9/7 | trigger total loss:-180.28162771463394, lp loss:-199.27286541461945, ln loss:48.354427471756935, loss_lf:-67.07548326998949
+epoch:9/8 | trigger total loss:-180.34270137548447, lp loss:-199.29723078012466, ln loss:47.26130458712578, loss_lf:-66.76525649428368
+epoch:9/9 | trigger total loss:-180.39482980966568, lp loss:-199.31297904253006, ln loss:46.24983113259077, loss_lf:-66.51288106292486
+epoch:9/10 | trigger total loss:-180.50638741254807, lp loss:-199.3581222295761, ln loss:44.45060317218304, loss_lf:-66.13223689049482
+epoch:9/11 | trigger total loss:-180.58706706762314, lp loss:-199.37422108650208, ln loss:42.810121558606625, loss_lf:-65.81556908041239
+epoch:9/12 | trigger total loss:-180.6639340519905, lp loss:-199.39272767305374, ln loss:41.42736230790615, loss_lf:-65.63702200353146
+epoch:9/13 | trigger total loss:-180.71770125627518, lp loss:-199.4036329984665, ln loss:40.50567056238651, loss_lf:-65.5943747535348
+epoch:9/14 | trigger total loss:-180.7597799897194, lp loss:-199.4176223874092, ln loss:39.99556998535991, loss_lf:-65.67404640465975
+epoch:9/15 | trigger total loss:-180.8028947710991, lp loss:-199.42816704511642, ln loss:39.345588747411966, loss_lf:-65.69656320661306
+epoch:9/1 | enconder total loss:-181.6230154633522, lt loss:-174.03007547557354, ld loss:-189.21595549583435
+epoch:9/2 | enconder total loss:-184.52414399385452, lt loss:-179.28314745426178, ld loss:-189.76514101028442
+epoch:9/3 | enconder total loss:-185.5765724182129, lt loss:-181.10456664860249, ld loss:-190.04857915639877
+epoch:9/4 | enconder total loss:-186.32578510046005, lt loss:-182.44601571559906, ld loss:-190.20555436611176
+epoch:9/5 | enconder total loss:-186.53385037183762, lt loss:-182.80076390504837, ld loss:-190.2669374346733
+epoch:9/6 | enconder total loss:-184.9734959602356, lt loss:-179.50437405705452, ld loss:-190.44261747598648
+epoch:9/7 | enconder total loss:-141.89710053801537, lt loss:-94.55448171496391, ld loss:-189.2397199869156
+epoch:9/8 | enconder total loss:-174.85491454601288, lt loss:-160.69442635774612, ld loss:-189.01540368795395
+epoch:9/9 | enconder total loss:-175.20089715719223, lt loss:-160.8682628273964, ld loss:-189.53353244066238
+epoch:9/10 | enconder total loss:-180.08381831645966, lt loss:-170.04742032289505, ld loss:-190.12021678686142
+epoch:10/1 | trigger total loss:-179.13581436872482, lp loss:-197.6970670223236, ln loss:41.529062516987324, loss_lf:-65.69823341816664
+epoch:10/2 | trigger total loss:-179.31439638137817, lp loss:-197.83929121494293, ln loss:40.40680435299873, loss_lf:-65.58758000284433
+epoch:10/3 | trigger total loss:-179.44920134544373, lp loss:-197.9475616812706, ln loss:39.559057146310806, loss_lf:-65.4870594739914
+epoch:10/4 | trigger total loss:-179.52760219573975, lp loss:-198.02322626113892, ln loss:39.26211777329445, loss_lf:-65.39617586880922
+epoch:10/5 | trigger total loss:-179.5977550148964, lp loss:-198.09179419279099, ln loss:38.9968004822731, loss_lf:-65.29968034476042
+epoch:10/6 | trigger total loss:-179.75562036037445, lp loss:-198.21545016765594, ln loss:38.014100067317486, loss_lf:-65.24850943684578
+epoch:10/7 | trigger total loss:-179.94301450252533, lp loss:-198.42689901590347, ln loss:37.969794280827045, loss_lf:-65.14599537849426
+epoch:10/8 | trigger total loss:-180.00727254152298, lp loss:-198.48051816225052, ln loss:37.565331153571606, loss_lf:-65.06154382228851
+epoch:10/9 | trigger total loss:-180.05708229541779, lp loss:-198.5212310552597, ln loss:37.22053952515125, loss_lf:-64.98011364042759
+epoch:10/10 | trigger total loss:-180.10761761665344, lp loss:-198.56280899047852, ln loss:36.884222604334354, loss_lf:-64.90611877292395
+epoch:10/11 | trigger total loss:-180.15517634153366, lp loss:-198.60134172439575, ln loss:36.557105362415314, loss_lf:-64.83657394349575
+epoch:10/12 | trigger total loss:-180.19837075471878, lp loss:-198.63613760471344, ln loss:36.254138082265854, loss_lf:-64.77117046713829
+epoch:10/13 | trigger total loss:-180.24065923690796, lp loss:-198.67023730278015, ln loss:35.961265452206135, loss_lf:-64.71025229245424
+epoch:10/14 | trigger total loss:-180.28141123056412, lp loss:-198.70288330316544, ln loss:35.679199166595936, loss_lf:-64.65561068058014
+epoch:10/15 | trigger total loss:-180.42022186517715, lp loss:-198.84335726499557, ln loss:35.344131141901016, loss_lf:-64.56822460889816
+epoch:10/1 | enconder total loss:-179.28630435466766, lt loss:-168.6021390259266, ld loss:-189.970469892025
+epoch:10/2 | enconder total loss:-182.66662794351578, lt loss:-175.0779414176941, ld loss:-190.25531458854675
+epoch:10/3 | enconder total loss:-180.26178616285324, lt loss:-170.17650928720832, ld loss:-190.34706330299377
+epoch:10/4 | enconder total loss:-186.7117875814438, lt loss:-182.97869420051575, ld loss:-190.44488143920898
+epoch:10/5 | enconder total loss:-136.3990154862404, lt loss:-82.6836109906435, ld loss:-190.1144198179245
+epoch:10/6 | enconder total loss:-172.25463503599167, lt loss:-154.57898885011673, ld loss:-189.93028259277344
+epoch:10/7 | enconder total loss:-175.53073799610138, lt loss:-161.2995290160179, ld loss:-189.76194721460342
+epoch:10/8 | enconder total loss:-170.80585914850235, lt loss:-152.00955161452293, ld loss:-189.60216587781906
+epoch:10/9 | enconder total loss:-180.83317059278488, lt loss:-172.06760436296463, ld loss:-189.59873604774475
+epoch:10/10 | enconder total loss:-175.69378209114075, lt loss:-161.6370918750763, ld loss:-189.75047183036804
++++backdoor model saved ! CiteSeer.TransformerConv.attack1.pth
+Saved picture with all three losses successfully
+poisoned pretrain end...
+training set (class_id, graph_num): [(0, 100), (1, 100), (2, 100), (3, 100), (4, 100), (5, 100)]
+testing set (class_id, graph_num): [(0, 100), (1, 100), (2, 100), (3, 100), (4, 100), (5, 100)]
+training set (class_id, graph_num): [(0, 100), (1, 100), (2, 100), (3, 100), (4, 100), (5, 100)]
+testing set (class_id, graph_num): [(0, 100), (1, 100), (2, 100), (3, 100), (4, 100), (5, 100)]
+trigegr node feature is tensor([[-1.4785e+02, -7.3185e+00, -2.7951e-02, -1.6105e+01,  1.2831e+01,
+          1.3121e+01,  1.0952e+01,  3.1841e+01,  2.3408e+01,  1.4124e+01,
+          1.0591e+01, -1.0100e+00, -2.3120e+00, -1.4721e-01, -2.0405e+00,
+         -1.3165e+01,  1.2444e+00, -4.9920e-01,  1.9616e+00, -5.2112e-01,
+         -1.7592e+00, -1.8150e+00,  2.0451e+01,  8.0006e+00,  2.3866e+00,
+         -1.0963e+01, -5.9805e+00,  2.2207e+01,  5.8553e+00,  2.6453e+00,
+          6.3573e+00, -5.0468e+00, -1.4177e+01, -5.8971e+00, -4.0662e+00,
+         -3.6896e+00, -8.7974e-02,  5.6082e+00, -1.2787e+01,  3.6290e+00,
+          3.2969e+00,  1.1568e+01, -4.9343e+00, -6.0361e+00, -4.8020e+00,
+          3.0480e+00,  1.4151e+01, -1.1017e+01,  5.5608e+00,  9.2035e+00,
+         -2.1017e+01,  1.0301e+01, -1.1873e+01, -2.4556e+00,  5.6071e+00,
+         -6.1195e+00,  2.7623e+00,  3.0762e+00, -1.8738e+01,  6.0203e+00,
+         -8.0287e+00, -5.0692e+00, -1.7032e+01, -1.7295e+00, -1.5152e+01,
+          7.4615e+00, -1.1280e+00, -1.4320e+01,  3.4169e+00,  6.0828e+00,
+          1.3752e+01, -1.0225e+01, -3.4266e+00,  1.0932e+01,  1.2167e+01,
+         -4.4453e+00, -7.7178e-01, -7.7454e+00, -4.5470e+00, -4.4839e-01,
+          7.9752e+00,  9.4007e+00, -1.6118e+01,  7.2671e+00,  1.4724e+01,
+          1.3596e+01,  4.8598e+00, -5.2287e+00,  2.0961e+00, -2.9839e+00,
+          1.4416e+01, -1.0415e-02,  3.4753e+00, -1.2703e+01,  7.0858e+00,
+          2.6764e+00,  4.9612e+00, -3.0880e-01,  7.7865e+00,  1.7848e+00],
+        [-1.0275e+02, -3.3823e+00, -5.5044e+00, -1.4335e+01,  2.2145e-01,
+          1.3803e+01,  1.0574e+01,  3.0267e+01,  2.3306e+01,  1.7204e+01,
+          1.8771e+00, -2.9824e+00, -2.4671e+00, -4.9750e+00, -3.4967e+00,
+         -1.6295e+01, -3.7044e+00, -7.5719e+00,  2.5063e+00, -5.1469e+00,
+          5.1251e+00,  8.2501e+00,  2.5333e+01,  1.0360e+01,  6.4179e+00,
+         -8.1065e+00, -6.2412e+00,  2.2286e+01,  1.5700e+01, -4.1008e-01,
+          7.0533e+00, -3.2513e-01, -1.3610e+01,  8.1121e-01, -4.9315e+00,
+         -3.6702e+00, -5.3920e+00, -3.3407e+00, -2.0135e+01, -2.8513e+00,
+          1.3097e+01,  8.8944e+00, -9.2926e+00, -1.2687e+01,  8.5251e-01,
+         -1.9696e-02,  2.1216e+01, -1.6534e+01,  1.1788e+01,  9.5907e+00,
+         -3.1614e+01,  1.5947e+01, -1.6940e+01,  2.5137e-01,  5.0287e+00,
+         -6.9902e+00, -5.4742e+00,  6.0318e+00, -2.6342e+01,  1.8877e+01,
+         -1.4391e+01, -5.3580e+00, -1.3624e+01, -5.1452e+00, -2.3816e+01,
+          1.2203e+01, -4.1195e-01, -1.6051e+01, -1.4881e+00,  4.6746e+00,
+          1.2764e+01, -2.0603e+01, -1.0901e+01,  2.3657e+01,  1.6752e+01,
+         -2.5971e+00,  4.7427e+00, -1.3100e+01, -1.0723e+01,  1.1273e+01,
+          5.7862e+00,  1.2426e+01, -2.1386e+01, -6.4188e+00,  2.5479e+01,
+          8.4721e+00,  1.1077e+01, -9.9510e+00,  2.1625e+00, -9.4916e+00,
+          1.0892e+01,  8.8754e+00,  8.1459e+00, -1.4145e+01,  3.6286e-01,
+          4.4514e+00,  4.3021e+00, -4.4660e+00,  3.9751e+00, -4.2030e+00],
+        [-5.2276e+01, -2.0288e+00, -1.7660e-01, -7.8023e+00,  1.7173e+00,
+          5.8375e+00,  3.8316e+00,  9.9289e+00,  7.2441e+00,  6.1463e+00,
+          1.0059e+00, -5.9316e-01, -9.3391e-01,  2.9407e+00,  2.3070e-01,
+         -4.9342e+00,  7.4166e-01, -4.8946e-01,  1.9525e+00, -2.2096e+00,
+          1.7931e+00,  1.5193e+00,  8.4593e+00,  6.0324e+00,  3.2532e+00,
+         -3.8634e+00, -1.8599e+00,  1.1545e+01,  4.6142e+00, -4.3162e-01,
+          3.8293e+00,  1.0867e+00, -1.1097e+01,  5.1054e-01,  4.3400e-02,
+         -2.1644e+00, -3.3140e+00, -2.8741e+00, -4.4522e+00, -6.3612e-01,
+          2.8364e+00,  4.5485e-01, -1.4164e-01, -1.5761e+00, -6.7402e-01,
+          2.0158e+00,  9.8053e+00, -6.9575e+00,  4.5683e+00,  2.3096e+00,
+         -1.1484e+01,  6.3172e+00, -1.1135e+01, -2.8837e+00,  3.3534e+00,
+         -4.9011e+00, -1.1470e+00,  1.1002e+00, -5.0451e+00,  4.6057e+00,
+         -2.5224e+00, -1.6206e+00, -3.8692e+00, -3.8142e+00, -5.4972e+00,
+          2.3944e+00,  1.8446e+00, -4.7921e+00,  1.5907e+00,  1.8323e+00,
+          2.7019e+00, -4.7152e+00, -1.3335e+00,  7.1106e+00,  2.4882e+00,
+         -1.8034e+00,  4.2179e+00, -2.7716e+00, -1.5896e+00,  2.0872e+00,
+          4.3446e+00,  3.9747e+00, -5.6458e+00, -1.2453e+00,  1.0905e+01,
+          4.4247e+00,  2.8184e+00, -2.4718e+00,  1.6979e+00, -4.7484e+00,
+          4.0419e+00,  8.0642e-01,  2.3821e+00, -4.1624e+00, -1.0206e+00,
+          5.3014e-01, -4.1969e-01,  1.0598e+00,  3.9503e+00,  1.7098e+00]],
+       device='cuda:0')
+no defense
+successfully load backdoor pre-trained weights for gnn! @ ./results/distribution/CiteSeer_Feb.03_22.57.23_TransformerConv_www23_none_0.0_ours_trigger_graph_degree_min_0.05_0.05_0.5/pre_trained_gnn/CiteSeer.TransformerConv.attack1.pth
+***************************** epoch 1**************************
+epoch 1/500 | loss: 9.90501499
+***************************** epoch 2**************************
+epoch 2/500 | loss: 8.80456734
+***************************** epoch 3**************************
+epoch 3/500 | loss: 7.82834244
+***************************** epoch 4**************************
+epoch 4/500 | loss: 6.96484041
+***************************** epoch 5**************************
+epoch 5/500 | loss: 6.19795799
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.4767 , correct:286, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 2
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 6**************************
+epoch 6/500 | loss: 5.51705122
+***************************** epoch 7**************************
+epoch 7/500 | loss: 4.91506243
+***************************** epoch 8**************************
+epoch 8/500 | loss: 4.38543129
+***************************** epoch 9**************************
+epoch 9/500 | loss: 3.92253900
+***************************** epoch 10**************************
+epoch 10/500 | loss: 3.52395749
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.4983 , correct:299, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 2
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 11**************************
+epoch 11/500 | loss: 3.18708038
+***************************** epoch 12**************************
+epoch 12/500 | loss: 2.90899086
+***************************** epoch 13**************************
+epoch 13/500 | loss: 2.68580770
+***************************** epoch 14**************************
+epoch 14/500 | loss: 2.50977302
+***************************** epoch 15**************************
+epoch 15/500 | loss: 2.37220693
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.5250 , correct:315, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 2
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 16**************************
+epoch 16/500 | loss: 2.26486421
+***************************** epoch 17**************************
+epoch 17/500 | loss: 2.18070078
+***************************** epoch 18**************************
+epoch 18/500 | loss: 2.11414409
+***************************** epoch 19**************************
+epoch 19/500 | loss: 2.06083488
+***************************** epoch 20**************************
+epoch 20/500 | loss: 2.01733398
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.5367 , correct:322, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 2
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 21**************************
+epoch 21/500 | loss: 1.98091435
+***************************** epoch 22**************************
+epoch 22/500 | loss: 1.94942629
+***************************** epoch 23**************************
+epoch 23/500 | loss: 1.92121053
+***************************** epoch 24**************************
+epoch 24/500 | loss: 1.89499962
+***************************** epoch 25**************************
+epoch 25/500 | loss: 1.86985147
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.5517 , correct:331, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 2
+-------------------------------------
+Final True Target ASR: 0.9000 , correct:450, total:500
+-------------------------------------
+***************************** epoch 26**************************
+epoch 26/500 | loss: 1.84510422
+***************************** epoch 27**************************
+epoch 27/500 | loss: 1.82029521
+***************************** epoch 28**************************
+epoch 28/500 | loss: 1.79514563
+***************************** epoch 29**************************
+epoch 29/500 | loss: 1.76951230
+***************************** epoch 30**************************
+epoch 30/500 | loss: 1.74333966
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.5533 , correct:332, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 2
+-------------------------------------
+Final True Target ASR: 0.7700 , correct:385, total:500
+-------------------------------------
+***************************** epoch 31**************************
+epoch 31/500 | loss: 1.71667194
+***************************** epoch 32**************************
+epoch 32/500 | loss: 1.68961632
+***************************** epoch 33**************************
+epoch 33/500 | loss: 1.66231155
+***************************** epoch 34**************************
+epoch 34/500 | loss: 1.63493919
+***************************** epoch 35**************************
+epoch 35/500 | loss: 1.60768163
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.5750 , correct:345, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.1920 , correct:96, total:500
+-------------------------------------
+***************************** epoch 36**************************
+epoch 36/500 | loss: 1.58073199
+***************************** epoch 37**************************
+epoch 37/500 | loss: 1.55426407
+***************************** epoch 38**************************
+epoch 38/500 | loss: 1.52844465
+***************************** epoch 39**************************
+epoch 39/500 | loss: 1.50341213
+***************************** epoch 40**************************
+epoch 40/500 | loss: 1.47928524
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.5967 , correct:358, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.6780 , correct:339, total:500
+-------------------------------------
+***************************** epoch 41**************************
+epoch 41/500 | loss: 1.45615339
+***************************** epoch 42**************************
+epoch 42/500 | loss: 1.43408179
+***************************** epoch 43**************************
+epoch 43/500 | loss: 1.41309810
+***************************** epoch 44**************************
+epoch 44/500 | loss: 1.39321065
+***************************** epoch 45**************************
+epoch 45/500 | loss: 1.37440383
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.6233 , correct:374, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.8060 , correct:403, total:500
+-------------------------------------
+***************************** epoch 46**************************
+epoch 46/500 | loss: 1.35664570
+***************************** epoch 47**************************
+epoch 47/500 | loss: 1.33988845
+***************************** epoch 48**************************
+epoch 48/500 | loss: 1.32407820
+***************************** epoch 49**************************
+epoch 49/500 | loss: 1.30915034
+***************************** epoch 50**************************
+epoch 50/500 | loss: 1.29504108
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.6467 , correct:388, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.8960 , correct:448, total:500
+-------------------------------------
+***************************** epoch 51**************************
+epoch 51/500 | loss: 1.28168595
+***************************** epoch 52**************************
+epoch 52/500 | loss: 1.26902056
+***************************** epoch 53**************************
+epoch 53/500 | loss: 1.25698245
+***************************** epoch 54**************************
+epoch 54/500 | loss: 1.24551284
+***************************** epoch 55**************************
+epoch 55/500 | loss: 1.23455775
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.6633 , correct:398, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.9340 , correct:467, total:500
+-------------------------------------
+***************************** epoch 56**************************
+epoch 56/500 | loss: 1.22406864
+***************************** epoch 57**************************
+epoch 57/500 | loss: 1.21400201
+***************************** epoch 58**************************
+epoch 58/500 | loss: 1.20431638
+***************************** epoch 59**************************
+epoch 59/500 | loss: 1.19497788
+***************************** epoch 60**************************
+epoch 60/500 | loss: 1.18595433
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.6683 , correct:401, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.9500 , correct:475, total:500
+-------------------------------------
+***************************** epoch 61**************************
+epoch 61/500 | loss: 1.17722046
+***************************** epoch 62**************************
+epoch 62/500 | loss: 1.16875398
+***************************** epoch 63**************************
+epoch 63/500 | loss: 1.16053486
+***************************** epoch 64**************************
+epoch 64/500 | loss: 1.15254664
+***************************** epoch 65**************************
+epoch 65/500 | loss: 1.14477527
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.6783 , correct:407, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.9560 , correct:478, total:500
+-------------------------------------
+***************************** epoch 66**************************
+epoch 66/500 | loss: 1.13720930
+***************************** epoch 67**************************
+epoch 67/500 | loss: 1.12983739
+***************************** epoch 68**************************
+epoch 68/500 | loss: 1.12265301
+***************************** epoch 69**************************
+epoch 69/500 | loss: 1.11564755
+***************************** epoch 70**************************
+epoch 70/500 | loss: 1.10881472
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.6850 , correct:411, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.9560 , correct:478, total:500
+-------------------------------------
+***************************** epoch 71**************************
+epoch 71/500 | loss: 1.10214996
+***************************** epoch 72**************************
+epoch 72/500 | loss: 1.09564841
+***************************** epoch 73**************************
+epoch 73/500 | loss: 1.08930445
+***************************** epoch 74**************************
+epoch 74/500 | loss: 1.08311474
+***************************** epoch 75**************************
+epoch 75/500 | loss: 1.07707560
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.6900 , correct:414, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.9560 , correct:478, total:500
+-------------------------------------
+***************************** epoch 76**************************
+epoch 76/500 | loss: 1.07118261
+***************************** epoch 77**************************
+epoch 77/500 | loss: 1.06543219
+***************************** epoch 78**************************
+epoch 78/500 | loss: 1.05982351
+***************************** epoch 79**************************
+epoch 79/500 | loss: 1.05434954
+***************************** epoch 80**************************
+epoch 80/500 | loss: 1.04900944
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.6917 , correct:415, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.9560 , correct:478, total:500
+-------------------------------------
+***************************** epoch 81**************************
+epoch 81/500 | loss: 1.04380000
+***************************** epoch 82**************************
+epoch 82/500 | loss: 1.03871644
+***************************** epoch 83**************************
+epoch 83/500 | loss: 1.03375626
+***************************** epoch 84**************************
+epoch 84/500 | loss: 1.02891767
+***************************** epoch 85**************************
+epoch 85/500 | loss: 1.02419567
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7000 , correct:420, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.9560 , correct:478, total:500
+-------------------------------------
+***************************** epoch 86**************************
+epoch 86/500 | loss: 1.01958680
+***************************** epoch 87**************************
+epoch 87/500 | loss: 1.01508975
+***************************** epoch 88**************************
+epoch 88/500 | loss: 1.01069832
+***************************** epoch 89**************************
+epoch 89/500 | loss: 1.00641227
+***************************** epoch 90**************************
+epoch 90/500 | loss: 1.00222611
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7167 , correct:430, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.9560 , correct:478, total:500
+-------------------------------------
+***************************** epoch 91**************************
+epoch 91/500 | loss: 0.99813855
+***************************** epoch 92**************************
+epoch 92/500 | loss: 0.99414498
+***************************** epoch 93**************************
+epoch 93/500 | loss: 0.99024320
+***************************** epoch 94**************************
+epoch 94/500 | loss: 0.98643088
+***************************** epoch 95**************************
+epoch 95/500 | loss: 0.98270398
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7333 , correct:440, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.9580 , correct:479, total:500
+-------------------------------------
+***************************** epoch 96**************************
+epoch 96/500 | loss: 0.97906059
+***************************** epoch 97**************************
+epoch 97/500 | loss: 0.97549713
+***************************** epoch 98**************************
+epoch 98/500 | loss: 0.97201234
+***************************** epoch 99**************************
+epoch 99/500 | loss: 0.96860373
+***************************** epoch 100**************************
+epoch 100/500 | loss: 0.96526736
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.9620 , correct:481, total:500
+-------------------------------------
+***************************** epoch 101**************************
+epoch 101/500 | loss: 0.96200258
+***************************** epoch 102**************************
+epoch 102/500 | loss: 0.95880634
+***************************** epoch 103**************************
+epoch 103/500 | loss: 0.95567828
+***************************** epoch 104**************************
+epoch 104/500 | loss: 0.95261353
+***************************** epoch 105**************************
+epoch 105/500 | loss: 0.94961220
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7417 , correct:445, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.9680 , correct:484, total:500
+-------------------------------------
+***************************** epoch 106**************************
+epoch 106/500 | loss: 0.94667214
+***************************** epoch 107**************************
+epoch 107/500 | loss: 0.94379181
+***************************** epoch 108**************************
+epoch 108/500 | loss: 0.94096947
+***************************** epoch 109**************************
+epoch 109/500 | loss: 0.93820417
+***************************** epoch 110**************************
+epoch 110/500 | loss: 0.93549228
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7400 , correct:444, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.9740 , correct:487, total:500
+-------------------------------------
+***************************** epoch 111**************************
+epoch 111/500 | loss: 0.93283457
+***************************** epoch 112**************************
+epoch 112/500 | loss: 0.93022859
+***************************** epoch 113**************************
+epoch 113/500 | loss: 0.92767346
+***************************** epoch 114**************************
+epoch 114/500 | loss: 0.92516631
+***************************** epoch 115**************************
+epoch 115/500 | loss: 0.92270923
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7417 , correct:445, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 0.9880 , correct:494, total:500
+-------------------------------------
+***************************** epoch 116**************************
+epoch 116/500 | loss: 0.92029727
+***************************** epoch 117**************************
+epoch 117/500 | loss: 0.91793233
+***************************** epoch 118**************************
+epoch 118/500 | loss: 0.91561097
+***************************** epoch 119**************************
+epoch 119/500 | loss: 0.91333383
+***************************** epoch 120**************************
+epoch 120/500 | loss: 0.91109937
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 121**************************
+epoch 121/500 | loss: 0.90890586
+***************************** epoch 122**************************
+epoch 122/500 | loss: 0.90675271
+***************************** epoch 123**************************
+epoch 123/500 | loss: 0.90463930
+***************************** epoch 124**************************
+epoch 124/500 | loss: 0.90256441
+***************************** epoch 125**************************
+epoch 125/500 | loss: 0.90052664
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 126**************************
+epoch 126/500 | loss: 0.89852530
+***************************** epoch 127**************************
+epoch 127/500 | loss: 0.89656013
+***************************** epoch 128**************************
+epoch 128/500 | loss: 0.89462990
+***************************** epoch 129**************************
+epoch 129/500 | loss: 0.89273363
+***************************** epoch 130**************************
+epoch 130/500 | loss: 0.89087129
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 131**************************
+epoch 131/500 | loss: 0.88904023
+***************************** epoch 132**************************
+epoch 132/500 | loss: 0.88724113
+***************************** epoch 133**************************
+epoch 133/500 | loss: 0.88547426
+***************************** epoch 134**************************
+epoch 134/500 | loss: 0.88373625
+***************************** epoch 135**************************
+epoch 135/500 | loss: 0.88202769
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7400 , correct:444, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 136**************************
+epoch 136/500 | loss: 0.88034761
+***************************** epoch 137**************************
+epoch 137/500 | loss: 0.87869549
+***************************** epoch 138**************************
+epoch 138/500 | loss: 0.87707090
+***************************** epoch 139**************************
+epoch 139/500 | loss: 0.87547362
+***************************** epoch 140**************************
+epoch 140/500 | loss: 0.87390155
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7400 , correct:444, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 141**************************
+epoch 141/500 | loss: 0.87235522
+***************************** epoch 142**************************
+epoch 142/500 | loss: 0.87083375
+***************************** epoch 143**************************
+epoch 143/500 | loss: 0.86933637
+***************************** epoch 144**************************
+epoch 144/500 | loss: 0.86786222
+***************************** epoch 145**************************
+epoch 145/500 | loss: 0.86641145
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 146**************************
+epoch 146/500 | loss: 0.86498332
+***************************** epoch 147**************************
+epoch 147/500 | loss: 0.86357749
+***************************** epoch 148**************************
+epoch 148/500 | loss: 0.86219352
+***************************** epoch 149**************************
+epoch 149/500 | loss: 0.86082947
+***************************** epoch 150**************************
+epoch 150/500 | loss: 0.85948718
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 151**************************
+epoch 151/500 | loss: 0.85816509
+***************************** epoch 152**************************
+epoch 152/500 | loss: 0.85686189
+***************************** epoch 153**************************
+epoch 153/500 | loss: 0.85557944
+***************************** epoch 154**************************
+epoch 154/500 | loss: 0.85431480
+***************************** epoch 155**************************
+epoch 155/500 | loss: 0.85306871
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 156**************************
+epoch 156/500 | loss: 0.85184091
+***************************** epoch 157**************************
+epoch 157/500 | loss: 0.85063154
+***************************** epoch 158**************************
+epoch 158/500 | loss: 0.84943885
+***************************** epoch 159**************************
+epoch 159/500 | loss: 0.84826428
+***************************** epoch 160**************************
+epoch 160/500 | loss: 0.84710604
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 161**************************
+epoch 161/500 | loss: 0.84596467
+***************************** epoch 162**************************
+epoch 162/500 | loss: 0.84483939
+***************************** epoch 163**************************
+epoch 163/500 | loss: 0.84372944
+***************************** epoch 164**************************
+epoch 164/500 | loss: 0.84263629
+***************************** epoch 165**************************
+epoch 165/500 | loss: 0.84155810
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 166**************************
+epoch 166/500 | loss: 0.84049493
+***************************** epoch 167**************************
+epoch 167/500 | loss: 0.83944637
+***************************** epoch 168**************************
+epoch 168/500 | loss: 0.83841318
+***************************** epoch 169**************************
+epoch 169/500 | loss: 0.83739382
+***************************** epoch 170**************************
+epoch 170/500 | loss: 0.83638883
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7350 , correct:441, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 171**************************
+epoch 171/500 | loss: 0.83539790
+***************************** epoch 172**************************
+epoch 172/500 | loss: 0.83442074
+***************************** epoch 173**************************
+epoch 173/500 | loss: 0.83345664
+***************************** epoch 174**************************
+epoch 174/500 | loss: 0.83250690
+***************************** epoch 175**************************
+epoch 175/500 | loss: 0.83156919
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7367 , correct:442, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 176**************************
+epoch 176/500 | loss: 0.83064526
+***************************** epoch 177**************************
+epoch 177/500 | loss: 0.82973391
+***************************** epoch 178**************************
+epoch 178/500 | loss: 0.82883483
+***************************** epoch 179**************************
+epoch 179/500 | loss: 0.82794803
+***************************** epoch 180**************************
+epoch 180/500 | loss: 0.82707357
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7400 , correct:444, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 181**************************
+epoch 181/500 | loss: 0.82621074
+***************************** epoch 182**************************
+epoch 182/500 | loss: 0.82536054
+***************************** epoch 183**************************
+epoch 183/500 | loss: 0.82452178
+***************************** epoch 184**************************
+epoch 184/500 | loss: 0.82369387
+***************************** epoch 185**************************
+epoch 185/500 | loss: 0.82287788
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 186**************************
+epoch 186/500 | loss: 0.82207286
+***************************** epoch 187**************************
+epoch 187/500 | loss: 0.82127911
+***************************** epoch 188**************************
+epoch 188/500 | loss: 0.82049620
+***************************** epoch 189**************************
+epoch 189/500 | loss: 0.81972414
+***************************** epoch 190**************************
+epoch 190/500 | loss: 0.81896245
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7400 , correct:444, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 191**************************
+epoch 191/500 | loss: 0.81821084
+***************************** epoch 192**************************
+epoch 192/500 | loss: 0.81746966
+***************************** epoch 193**************************
+epoch 193/500 | loss: 0.81673861
+***************************** epoch 194**************************
+epoch 194/500 | loss: 0.81601727
+***************************** epoch 195**************************
+epoch 195/500 | loss: 0.81530547
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7417 , correct:445, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 196**************************
+epoch 196/500 | loss: 0.81460381
+***************************** epoch 197**************************
+epoch 197/500 | loss: 0.81391150
+***************************** epoch 198**************************
+epoch 198/500 | loss: 0.81322759
+***************************** epoch 199**************************
+epoch 199/500 | loss: 0.81255382
+***************************** epoch 200**************************
+epoch 200/500 | loss: 0.81188929
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 201**************************
+epoch 201/500 | loss: 0.81123292
+***************************** epoch 202**************************
+epoch 202/500 | loss: 0.81058598
+***************************** epoch 203**************************
+epoch 203/500 | loss: 0.80994695
+***************************** epoch 204**************************
+epoch 204/500 | loss: 0.80931681
+***************************** epoch 205**************************
+epoch 205/500 | loss: 0.80869520
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 206**************************
+epoch 206/500 | loss: 0.80808163
+***************************** epoch 207**************************
+epoch 207/500 | loss: 0.80747598
+***************************** epoch 208**************************
+epoch 208/500 | loss: 0.80687809
+***************************** epoch 209**************************
+epoch 209/500 | loss: 0.80628777
+***************************** epoch 210**************************
+epoch 210/500 | loss: 0.80570585
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7367 , correct:442, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 211**************************
+epoch 211/500 | loss: 0.80513072
+***************************** epoch 212**************************
+epoch 212/500 | loss: 0.80456352
+***************************** epoch 213**************************
+epoch 213/500 | loss: 0.80400348
+***************************** epoch 214**************************
+epoch 214/500 | loss: 0.80344999
+***************************** epoch 215**************************
+epoch 215/500 | loss: 0.80290383
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 216**************************
+epoch 216/500 | loss: 0.80236518
+***************************** epoch 217**************************
+epoch 217/500 | loss: 0.80183232
+***************************** epoch 218**************************
+epoch 218/500 | loss: 0.80130637
+***************************** epoch 219**************************
+epoch 219/500 | loss: 0.80078745
+***************************** epoch 220**************************
+epoch 220/500 | loss: 0.80027449
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 221**************************
+epoch 221/500 | loss: 0.79976785
+***************************** epoch 222**************************
+epoch 222/500 | loss: 0.79926777
+***************************** epoch 223**************************
+epoch 223/500 | loss: 0.79877347
+***************************** epoch 224**************************
+epoch 224/500 | loss: 0.79828525
+***************************** epoch 225**************************
+epoch 225/500 | loss: 0.79780239
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 226**************************
+epoch 226/500 | loss: 0.79732549
+***************************** epoch 227**************************
+epoch 227/500 | loss: 0.79685491
+***************************** epoch 228**************************
+epoch 228/500 | loss: 0.79638910
+***************************** epoch 229**************************
+epoch 229/500 | loss: 0.79592949
+***************************** epoch 230**************************
+epoch 230/500 | loss: 0.79547441
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7367 , correct:442, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 231**************************
+epoch 231/500 | loss: 0.79502505
+***************************** epoch 232**************************
+epoch 232/500 | loss: 0.79458070
+***************************** epoch 233**************************
+epoch 233/500 | loss: 0.79414153
+***************************** epoch 234**************************
+epoch 234/500 | loss: 0.79370737
+***************************** epoch 235**************************
+epoch 235/500 | loss: 0.79327792
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7367 , correct:442, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 236**************************
+epoch 236/500 | loss: 0.79285336
+***************************** epoch 237**************************
+epoch 237/500 | loss: 0.79243362
+***************************** epoch 238**************************
+epoch 238/500 | loss: 0.79201788
+***************************** epoch 239**************************
+epoch 239/500 | loss: 0.79160804
+***************************** epoch 240**************************
+epoch 240/500 | loss: 0.79120201
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7350 , correct:441, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 241**************************
+epoch 241/500 | loss: 0.79079968
+***************************** epoch 242**************************
+epoch 242/500 | loss: 0.79040235
+***************************** epoch 243**************************
+epoch 243/500 | loss: 0.79000932
+***************************** epoch 244**************************
+epoch 244/500 | loss: 0.78962028
+***************************** epoch 245**************************
+epoch 245/500 | loss: 0.78923547
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7367 , correct:442, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 246**************************
+epoch 246/500 | loss: 0.78885496
+***************************** epoch 247**************************
+epoch 247/500 | loss: 0.78847808
+***************************** epoch 248**************************
+epoch 248/500 | loss: 0.78810519
+***************************** epoch 249**************************
+epoch 249/500 | loss: 0.78773642
+***************************** epoch 250**************************
+epoch 250/500 | loss: 0.78737104
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7367 , correct:442, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 251**************************
+epoch 251/500 | loss: 0.78701013
+***************************** epoch 252**************************
+epoch 252/500 | loss: 0.78665197
+***************************** epoch 253**************************
+epoch 253/500 | loss: 0.78629774
+***************************** epoch 254**************************
+epoch 254/500 | loss: 0.78594768
+***************************** epoch 255**************************
+epoch 255/500 | loss: 0.78560066
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 256**************************
+epoch 256/500 | loss: 0.78525698
+***************************** epoch 257**************************
+epoch 257/500 | loss: 0.78491688
+***************************** epoch 258**************************
+epoch 258/500 | loss: 0.78458041
+***************************** epoch 259**************************
+epoch 259/500 | loss: 0.78424680
+***************************** epoch 260**************************
+epoch 260/500 | loss: 0.78391635
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7383 , correct:443, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 261**************************
+epoch 261/500 | loss: 0.78358936
+***************************** epoch 262**************************
+epoch 262/500 | loss: 0.78326559
+***************************** epoch 263**************************
+epoch 263/500 | loss: 0.78294456
+***************************** epoch 264**************************
+epoch 264/500 | loss: 0.78262717
+***************************** epoch 265**************************
+epoch 265/500 | loss: 0.78231245
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7400 , correct:444, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 266**************************
+epoch 266/500 | loss: 0.78200090
+***************************** epoch 267**************************
+epoch 267/500 | loss: 0.78169197
+***************************** epoch 268**************************
+epoch 268/500 | loss: 0.78138614
+***************************** epoch 269**************************
+epoch 269/500 | loss: 0.78108311
+***************************** epoch 270**************************
+epoch 270/500 | loss: 0.78078288
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7400 , correct:444, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 271**************************
+epoch 271/500 | loss: 0.78048575
+***************************** epoch 272**************************
+epoch 272/500 | loss: 0.78019106
+***************************** epoch 273**************************
+epoch 273/500 | loss: 0.77989882
+***************************** epoch 274**************************
+epoch 274/500 | loss: 0.77960992
+***************************** epoch 275**************************
+epoch 275/500 | loss: 0.77932280
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7400 , correct:444, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 276**************************
+epoch 276/500 | loss: 0.77903873
+***************************** epoch 277**************************
+epoch 277/500 | loss: 0.77875739
+***************************** epoch 278**************************
+epoch 278/500 | loss: 0.77847844
+***************************** epoch 279**************************
+epoch 279/500 | loss: 0.77820188
+***************************** epoch 280**************************
+epoch 280/500 | loss: 0.77792782
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7417 , correct:445, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 281**************************
+epoch 281/500 | loss: 0.77765656
+***************************** epoch 282**************************
+epoch 282/500 | loss: 0.77738702
+***************************** epoch 283**************************
+epoch 283/500 | loss: 0.77711993
+***************************** epoch 284**************************
+epoch 284/500 | loss: 0.77685565
+***************************** epoch 285**************************
+epoch 285/500 | loss: 0.77659321
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7433 , correct:446, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 286**************************
+epoch 286/500 | loss: 0.77633351
+***************************** epoch 287**************************
+epoch 287/500 | loss: 0.77607584
+***************************** epoch 288**************************
+epoch 288/500 | loss: 0.77581942
+***************************** epoch 289**************************
+epoch 289/500 | loss: 0.77556658
+***************************** epoch 290**************************
+epoch 290/500 | loss: 0.77531523
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7500 , correct:450, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 291**************************
+epoch 291/500 | loss: 0.77506608
+***************************** epoch 292**************************
+epoch 292/500 | loss: 0.77481872
+***************************** epoch 293**************************
+epoch 293/500 | loss: 0.77457410
+***************************** epoch 294**************************
+epoch 294/500 | loss: 0.77433157
+***************************** epoch 295**************************
+epoch 295/500 | loss: 0.77408999
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7517 , correct:451, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 296**************************
+epoch 296/500 | loss: 0.77385104
+***************************** epoch 297**************************
+epoch 297/500 | loss: 0.77361411
+***************************** epoch 298**************************
+epoch 298/500 | loss: 0.77337909
+***************************** epoch 299**************************
+epoch 299/500 | loss: 0.77314597
+***************************** epoch 300**************************
+epoch 300/500 | loss: 0.77291501
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7533 , correct:452, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 301**************************
+epoch 301/500 | loss: 0.77268559
+***************************** epoch 302**************************
+epoch 302/500 | loss: 0.77245802
+***************************** epoch 303**************************
+epoch 303/500 | loss: 0.77223223
+***************************** epoch 304**************************
+epoch 304/500 | loss: 0.77200842
+***************************** epoch 305**************************
+epoch 305/500 | loss: 0.77178621
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7567 , correct:454, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 306**************************
+epoch 306/500 | loss: 0.77156591
+***************************** epoch 307**************************
+epoch 307/500 | loss: 0.77134728
+***************************** epoch 308**************************
+epoch 308/500 | loss: 0.77113008
+***************************** epoch 309**************************
+epoch 309/500 | loss: 0.77091485
+***************************** epoch 310**************************
+epoch 310/500 | loss: 0.77070105
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7567 , correct:454, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 311**************************
+epoch 311/500 | loss: 0.77048928
+***************************** epoch 312**************************
+epoch 312/500 | loss: 0.77027917
+***************************** epoch 313**************************
+epoch 313/500 | loss: 0.77007055
+***************************** epoch 314**************************
+epoch 314/500 | loss: 0.76986313
+***************************** epoch 315**************************
+epoch 315/500 | loss: 0.76965737
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7567 , correct:454, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 316**************************
+epoch 316/500 | loss: 0.76945347
+***************************** epoch 317**************************
+epoch 317/500 | loss: 0.76925075
+***************************** epoch 318**************************
+epoch 318/500 | loss: 0.76905000
+***************************** epoch 319**************************
+epoch 319/500 | loss: 0.76885062
+***************************** epoch 320**************************
+epoch 320/500 | loss: 0.76865256
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7567 , correct:454, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 321**************************
+epoch 321/500 | loss: 0.76845604
+***************************** epoch 322**************************
+epoch 322/500 | loss: 0.76826102
+***************************** epoch 323**************************
+epoch 323/500 | loss: 0.76806748
+***************************** epoch 324**************************
+epoch 324/500 | loss: 0.76787525
+***************************** epoch 325**************************
+epoch 325/500 | loss: 0.76768422
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7567 , correct:454, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 326**************************
+epoch 326/500 | loss: 0.76749468
+***************************** epoch 327**************************
+epoch 327/500 | loss: 0.76730633
+***************************** epoch 328**************************
+epoch 328/500 | loss: 0.76711971
+***************************** epoch 329**************************
+epoch 329/500 | loss: 0.76693428
+***************************** epoch 330**************************
+epoch 330/500 | loss: 0.76675022
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7567 , correct:454, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 331**************************
+epoch 331/500 | loss: 0.76656717
+***************************** epoch 332**************************
+epoch 332/500 | loss: 0.76638550
+***************************** epoch 333**************************
+epoch 333/500 | loss: 0.76620543
+***************************** epoch 334**************************
+epoch 334/500 | loss: 0.76602644
+***************************** epoch 335**************************
+epoch 335/500 | loss: 0.76584917
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7567 , correct:454, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 336**************************
+epoch 336/500 | loss: 0.76567250
+***************************** epoch 337**************************
+epoch 337/500 | loss: 0.76549679
+***************************** epoch 338**************************
+epoch 338/500 | loss: 0.76532269
+***************************** epoch 339**************************
+epoch 339/500 | loss: 0.76514953
+***************************** epoch 340**************************
+epoch 340/500 | loss: 0.76497769
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7600 , correct:456, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 341**************************
+epoch 341/500 | loss: 0.76480711
+***************************** epoch 342**************************
+epoch 342/500 | loss: 0.76463759
+***************************** epoch 343**************************
+epoch 343/500 | loss: 0.76446903
+***************************** epoch 344**************************
+epoch 344/500 | loss: 0.76430213
+***************************** epoch 345**************************
+epoch 345/500 | loss: 0.76413542
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7617 , correct:457, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 346**************************
+epoch 346/500 | loss: 0.76397091
+***************************** epoch 347**************************
+epoch 347/500 | loss: 0.76380694
+***************************** epoch 348**************************
+epoch 348/500 | loss: 0.76364392
+***************************** epoch 349**************************
+epoch 349/500 | loss: 0.76348203
+***************************** epoch 350**************************
+epoch 350/500 | loss: 0.76332110
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7617 , correct:457, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 351**************************
+epoch 351/500 | loss: 0.76316124
+***************************** epoch 352**************************
+epoch 352/500 | loss: 0.76300257
+***************************** epoch 353**************************
+epoch 353/500 | loss: 0.76284462
+***************************** epoch 354**************************
+epoch 354/500 | loss: 0.76268822
+***************************** epoch 355**************************
+epoch 355/500 | loss: 0.76253206
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7633 , correct:458, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 356**************************
+epoch 356/500 | loss: 0.76237720
+***************************** epoch 357**************************
+epoch 357/500 | loss: 0.76222348
+***************************** epoch 358**************************
+epoch 358/500 | loss: 0.76207024
+***************************** epoch 359**************************
+epoch 359/500 | loss: 0.76191825
+***************************** epoch 360**************************
+epoch 360/500 | loss: 0.76176715
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7633 , correct:458, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 361**************************
+epoch 361/500 | loss: 0.76161671
+***************************** epoch 362**************************
+epoch 362/500 | loss: 0.76146752
+***************************** epoch 363**************************
+epoch 363/500 | loss: 0.76131940
+***************************** epoch 364**************************
+epoch 364/500 | loss: 0.76117146
+***************************** epoch 365**************************
+epoch 365/500 | loss: 0.76102507
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7667 , correct:460, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 366**************************
+epoch 366/500 | loss: 0.76087898
+***************************** epoch 367**************************
+epoch 367/500 | loss: 0.76073414
+***************************** epoch 368**************************
+epoch 368/500 | loss: 0.76059002
+***************************** epoch 369**************************
+epoch 369/500 | loss: 0.76044679
+***************************** epoch 370**************************
+epoch 370/500 | loss: 0.76030427
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7683 , correct:461, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 371**************************
+epoch 371/500 | loss: 0.76016253
+***************************** epoch 372**************************
+epoch 372/500 | loss: 0.76002151
+***************************** epoch 373**************************
+epoch 373/500 | loss: 0.75988132
+***************************** epoch 374**************************
+epoch 374/500 | loss: 0.75974190
+***************************** epoch 375**************************
+epoch 375/500 | loss: 0.75960308
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7683 , correct:461, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 376**************************
+epoch 376/500 | loss: 0.75946563
+***************************** epoch 377**************************
+epoch 377/500 | loss: 0.75932831
+***************************** epoch 378**************************
+epoch 378/500 | loss: 0.75919205
+***************************** epoch 379**************************
+epoch 379/500 | loss: 0.75905627
+***************************** epoch 380**************************
+epoch 380/500 | loss: 0.75892138
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7683 , correct:461, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 381**************************
+epoch 381/500 | loss: 0.75878704
+***************************** epoch 382**************************
+epoch 382/500 | loss: 0.75865334
+***************************** epoch 383**************************
+epoch 383/500 | loss: 0.75852078
+***************************** epoch 384**************************
+epoch 384/500 | loss: 0.75838822
+***************************** epoch 385**************************
+epoch 385/500 | loss: 0.75825685
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7683 , correct:461, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 386**************************
+epoch 386/500 | loss: 0.75812584
+***************************** epoch 387**************************
+epoch 387/500 | loss: 0.75799602
+***************************** epoch 388**************************
+epoch 388/500 | loss: 0.75786644
+***************************** epoch 389**************************
+epoch 389/500 | loss: 0.75773752
+***************************** epoch 390**************************
+epoch 390/500 | loss: 0.75760895
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7733 , correct:464, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 391**************************
+epoch 391/500 | loss: 0.75748110
+***************************** epoch 392**************************
+epoch 392/500 | loss: 0.75735432
+***************************** epoch 393**************************
+epoch 393/500 | loss: 0.75722766
+***************************** epoch 394**************************
+epoch 394/500 | loss: 0.75710142
+***************************** epoch 395**************************
+epoch 395/500 | loss: 0.75697649
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7717 , correct:463, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 396**************************
+epoch 396/500 | loss: 0.75685138
+***************************** epoch 397**************************
+epoch 397/500 | loss: 0.75672728
+***************************** epoch 398**************************
+epoch 398/500 | loss: 0.75660336
+***************************** epoch 399**************************
+epoch 399/500 | loss: 0.75648052
+***************************** epoch 400**************************
+epoch 400/500 | loss: 0.75635803
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7717 , correct:463, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 401**************************
+epoch 401/500 | loss: 0.75623620
+***************************** epoch 402**************************
+epoch 402/500 | loss: 0.75611436
+***************************** epoch 403**************************
+epoch 403/500 | loss: 0.75599402
+***************************** epoch 404**************************
+epoch 404/500 | loss: 0.75587338
+***************************** epoch 405**************************
+epoch 405/500 | loss: 0.75575382
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7717 , correct:463, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 406**************************
+epoch 406/500 | loss: 0.75563461
+***************************** epoch 407**************************
+epoch 407/500 | loss: 0.75551593
+***************************** epoch 408**************************
+epoch 408/500 | loss: 0.75539768
+***************************** epoch 409**************************
+epoch 409/500 | loss: 0.75527966
+***************************** epoch 410**************************
+epoch 410/500 | loss: 0.75516248
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7717 , correct:463, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 411**************************
+epoch 411/500 | loss: 0.75504571
+***************************** epoch 412**************************
+epoch 412/500 | loss: 0.75492948
+***************************** epoch 413**************************
+epoch 413/500 | loss: 0.75481355
+***************************** epoch 414**************************
+epoch 414/500 | loss: 0.75469840
+***************************** epoch 415**************************
+epoch 415/500 | loss: 0.75458395
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7717 , correct:463, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 416**************************
+epoch 416/500 | loss: 0.75446928
+***************************** epoch 417**************************
+epoch 417/500 | loss: 0.75435543
+***************************** epoch 418**************************
+epoch 418/500 | loss: 0.75424206
+***************************** epoch 419**************************
+epoch 419/500 | loss: 0.75412869
+***************************** epoch 420**************************
+epoch 420/500 | loss: 0.75401670
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7717 , correct:463, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 421**************************
+epoch 421/500 | loss: 0.75390452
+***************************** epoch 422**************************
+epoch 422/500 | loss: 0.75379246
+***************************** epoch 423**************************
+epoch 423/500 | loss: 0.75368100
+***************************** epoch 424**************************
+epoch 424/500 | loss: 0.75357050
+***************************** epoch 425**************************
+epoch 425/500 | loss: 0.75345993
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7733 , correct:464, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 426**************************
+epoch 426/500 | loss: 0.75335032
+***************************** epoch 427**************************
+epoch 427/500 | loss: 0.75324023
+***************************** epoch 428**************************
+epoch 428/500 | loss: 0.75313091
+***************************** epoch 429**************************
+epoch 429/500 | loss: 0.75302213
+***************************** epoch 430**************************
+epoch 430/500 | loss: 0.75291383
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7733 , correct:464, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 431**************************
+epoch 431/500 | loss: 0.75280583
+***************************** epoch 432**************************
+epoch 432/500 | loss: 0.75269818
+***************************** epoch 433**************************
+epoch 433/500 | loss: 0.75259095
+***************************** epoch 434**************************
+epoch 434/500 | loss: 0.75248367
+***************************** epoch 435**************************
+epoch 435/500 | loss: 0.75237733
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7733 , correct:464, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 436**************************
+epoch 436/500 | loss: 0.75227153
+***************************** epoch 437**************************
+epoch 437/500 | loss: 0.75216568
+***************************** epoch 438**************************
+epoch 438/500 | loss: 0.75206053
+***************************** epoch 439**************************
+epoch 439/500 | loss: 0.75195503
+***************************** epoch 440**************************
+epoch 440/500 | loss: 0.75185049
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7733 , correct:464, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 441**************************
+epoch 441/500 | loss: 0.75174630
+***************************** epoch 442**************************
+epoch 442/500 | loss: 0.75164211
+***************************** epoch 443**************************
+epoch 443/500 | loss: 0.75153887
+***************************** epoch 444**************************
+epoch 444/500 | loss: 0.75143516
+***************************** epoch 445**************************
+epoch 445/500 | loss: 0.75133216
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7733 , correct:464, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 446**************************
+epoch 446/500 | loss: 0.75122976
+***************************** epoch 447**************************
+epoch 447/500 | loss: 0.75112742
+***************************** epoch 448**************************
+epoch 448/500 | loss: 0.75102556
+***************************** epoch 449**************************
+epoch 449/500 | loss: 0.75092393
+***************************** epoch 450**************************
+epoch 450/500 | loss: 0.75082260
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7733 , correct:464, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 451**************************
+epoch 451/500 | loss: 0.75072181
+***************************** epoch 452**************************
+epoch 452/500 | loss: 0.75062102
+***************************** epoch 453**************************
+epoch 453/500 | loss: 0.75052106
+***************************** epoch 454**************************
+epoch 454/500 | loss: 0.75042057
+***************************** epoch 455**************************
+epoch 455/500 | loss: 0.75032121
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7750 , correct:465, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 456**************************
+epoch 456/500 | loss: 0.75022149
+***************************** epoch 457**************************
+epoch 457/500 | loss: 0.75012279
+***************************** epoch 458**************************
+epoch 458/500 | loss: 0.75002390
+***************************** epoch 459**************************
+epoch 459/500 | loss: 0.74992549
+***************************** epoch 460**************************
+epoch 460/500 | loss: 0.74982750
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7750 , correct:465, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 461**************************
+epoch 461/500 | loss: 0.74972963
+***************************** epoch 462**************************
+epoch 462/500 | loss: 0.74963212
+***************************** epoch 463**************************
+epoch 463/500 | loss: 0.74953479
+***************************** epoch 464**************************
+epoch 464/500 | loss: 0.74943811
+***************************** epoch 465**************************
+epoch 465/500 | loss: 0.74934131
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7750 , correct:465, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 466**************************
+epoch 466/500 | loss: 0.74924499
+***************************** epoch 467**************************
+epoch 467/500 | loss: 0.74914938
+***************************** epoch 468**************************
+epoch 468/500 | loss: 0.74905342
+***************************** epoch 469**************************
+epoch 469/500 | loss: 0.74895787
+***************************** epoch 470**************************
+epoch 470/500 | loss: 0.74886268
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7750 , correct:465, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 471**************************
+epoch 471/500 | loss: 0.74876767
+***************************** epoch 472**************************
+epoch 472/500 | loss: 0.74867332
+***************************** epoch 473**************************
+epoch 473/500 | loss: 0.74857914
+***************************** epoch 474**************************
+epoch 474/500 | loss: 0.74848551
+***************************** epoch 475**************************
+epoch 475/500 | loss: 0.74839157
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7767 , correct:466, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 476**************************
+epoch 476/500 | loss: 0.74829823
+***************************** epoch 477**************************
+epoch 477/500 | loss: 0.74820501
+***************************** epoch 478**************************
+epoch 478/500 | loss: 0.74811220
+***************************** epoch 479**************************
+epoch 479/500 | loss: 0.74801993
+***************************** epoch 480**************************
+epoch 480/500 | loss: 0.74792767
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7767 , correct:466, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 481**************************
+epoch 481/500 | loss: 0.74783552
+***************************** epoch 482**************************
+epoch 482/500 | loss: 0.74774396
+***************************** epoch 483**************************
+epoch 483/500 | loss: 0.74765265
+***************************** epoch 484**************************
+epoch 484/500 | loss: 0.74756145
+***************************** epoch 485**************************
+epoch 485/500 | loss: 0.74747044
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7767 , correct:466, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 486**************************
+epoch 486/500 | loss: 0.74737996
+***************************** epoch 487**************************
+epoch 487/500 | loss: 0.74728978
+***************************** epoch 488**************************
+epoch 488/500 | loss: 0.74719995
+***************************** epoch 489**************************
+epoch 489/500 | loss: 0.74711037
+***************************** epoch 490**************************
+epoch 490/500 | loss: 0.74702078
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7767 , correct:466, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 491**************************
+epoch 491/500 | loss: 0.74693179
+***************************** epoch 492**************************
+epoch 492/500 | loss: 0.74684298
+***************************** epoch 493**************************
+epoch 493/500 | loss: 0.74675417
+***************************** epoch 494**************************
+epoch 494/500 | loss: 0.74666584
+***************************** epoch 495**************************
+epoch 495/500 | loss: 0.74657828
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7767 , correct:466, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
+***************************** epoch 496**************************
+epoch 496/500 | loss: 0.74649030
+***************************** epoch 497**************************
+epoch 497/500 | loss: 0.74640292
+***************************** epoch 498**************************
+epoch 498/500 | loss: 0.74631596
+***************************** epoch 499**************************
+epoch 499/500 | loss: 0.74622905
+***************************** epoch 500**************************
+epoch 500/500 | loss: 0.74614280
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7767 , correct:466, total:600
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+target clss is 4
+-------------------------------------
+Final True Target ASR: 1.0000 , correct:500, total:500
+-------------------------------------
