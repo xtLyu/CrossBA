@@ -1,0 +1,1039 @@
+Dataset:CiteSeer
+pretext:GraphCL
+gnn_type:TransformerConv
+usage_par:prompt
+the attack method:ours
+target embedding:trigger_graph
+number of trigger nodes:3
+trigger_pattern:trigger_graph
+poison_rate:0.1
+reg_param_trigger_n: 0.05
+reg_param_trigger_f: 0.05
+reg_param_gnn: 0.5
+the selection of the poisoned node: degree_min
+defense_mode: none
+sim_thre: 0.0
+load clean data...
+create PreTrain instance...
+clean pre-training...
+===graph views: dropN and permE with aug_ratio: 0.2
+***epoch: 1/400 | train_loss: 10.385008
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 2/400 | train_loss: 7.7297472
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 3/400 | train_loss: 6.6732162
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 4/400 | train_loss: 5.9448926
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 5/400 | train_loss: 5.300302
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 6/400 | train_loss: 4.9857916
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 7/400 | train_loss: 4.7492629
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 8/400 | train_loss: 4.4689676
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 9/400 | train_loss: 4.4159457
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 10/400 | train_loss: 4.0770457
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 11/400 | train_loss: 3.9173883
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 12/400 | train_loss: 3.7269025
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 13/400 | train_loss: 3.4561977
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 14/400 | train_loss: 3.2412022
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 15/400 | train_loss: 3.0096264
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 16/400 | train_loss: 2.9826431
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 17/400 | train_loss: 2.7388223
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 18/400 | train_loss: 2.6718852
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 19/400 | train_loss: 2.5906032
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 20/400 | train_loss: 2.5510954
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 21/400 | train_loss: 2.3971823
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 22/400 | train_loss: 2.3327121
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 23/400 | train_loss: 2.3176607
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 24/400 | train_loss: 2.2747117
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 25/400 | train_loss: 2.1941927
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 26/400 | train_loss: 2.1605468
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 27/400 | train_loss: 2.1019103
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 28/400 | train_loss: 2.0995356
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 29/400 | train_loss: 2.0355332
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 30/400 | train_loss: 2.0198509
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 31/400 | train_loss: 1.9464114
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 32/400 | train_loss: 1.8824536
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 33/400 | train_loss: 1.8647221
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 34/400 | train_loss: 1.8138944
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 35/400 | train_loss: 1.8238294
+***epoch: 36/400 | train_loss: 1.7993366
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 37/400 | train_loss: 1.8062237
+***epoch: 38/400 | train_loss: 1.7126468
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 39/400 | train_loss: 1.7242082
+***epoch: 40/400 | train_loss: 1.6730661
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 41/400 | train_loss: 1.7104201
+***epoch: 42/400 | train_loss: 1.683
+***epoch: 43/400 | train_loss: 1.6264538
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 44/400 | train_loss: 1.6336062
+***epoch: 45/400 | train_loss: 1.5993961
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 46/400 | train_loss: 1.6022204
+***epoch: 47/400 | train_loss: 1.6019156
+***epoch: 48/400 | train_loss: 1.5431046
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 49/400 | train_loss: 1.5676349
+***epoch: 50/400 | train_loss: 1.547228
+***epoch: 51/400 | train_loss: 1.5746164
+***epoch: 52/400 | train_loss: 1.5231863
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 53/400 | train_loss: 1.5265981
+***epoch: 54/400 | train_loss: 1.496986
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 55/400 | train_loss: 1.4880029
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 56/400 | train_loss: 1.5047473
+***epoch: 57/400 | train_loss: 1.48427
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 58/400 | train_loss: 1.4769742
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 59/400 | train_loss: 1.4434994
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 60/400 | train_loss: 1.456411
+***epoch: 61/400 | train_loss: 1.4541822
+***epoch: 62/400 | train_loss: 1.4410171
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 63/400 | train_loss: 1.4397829
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 64/400 | train_loss: 1.4327791
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 65/400 | train_loss: 1.4236542
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 66/400 | train_loss: 1.4154321
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 67/400 | train_loss: 1.4016166
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 68/400 | train_loss: 1.3727923
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 69/400 | train_loss: 1.4075615
+***epoch: 70/400 | train_loss: 1.3833423
+***epoch: 71/400 | train_loss: 1.3900443
+***epoch: 72/400 | train_loss: 1.3499594
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 73/400 | train_loss: 1.3625429
+***epoch: 74/400 | train_loss: 1.3700809
+***epoch: 75/400 | train_loss: 1.3703776
+***epoch: 76/400 | train_loss: 1.3772951
+***epoch: 77/400 | train_loss: 1.3708055
+***epoch: 78/400 | train_loss: 1.3574829
+***epoch: 79/400 | train_loss: 1.3477516
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 80/400 | train_loss: 1.3240365
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 81/400 | train_loss: 1.3258188
+***epoch: 82/400 | train_loss: 1.314793
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 83/400 | train_loss: 1.4055352
+***epoch: 84/400 | train_loss: 1.3792026
+***epoch: 85/400 | train_loss: 1.3131413
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 86/400 | train_loss: 1.3097573
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 87/400 | train_loss: 1.2942658
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 88/400 | train_loss: 1.28957
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 89/400 | train_loss: 1.2821376
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 90/400 | train_loss: 1.2738778
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 91/400 | train_loss: 1.2665268
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 92/400 | train_loss: 1.2626971
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 93/400 | train_loss: 1.2931952
+***epoch: 94/400 | train_loss: 1.2655389
+***epoch: 95/400 | train_loss: 1.2918355
+***epoch: 96/400 | train_loss: 1.2724429
+***epoch: 97/400 | train_loss: 1.2550033
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 98/400 | train_loss: 1.256508
+***epoch: 99/400 | train_loss: 1.2649927
+***epoch: 100/400 | train_loss: 1.2750701
+***epoch: 101/400 | train_loss: 1.2665097
+***epoch: 102/400 | train_loss: 1.2509974
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 103/400 | train_loss: 1.2450478
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 104/400 | train_loss: 1.2447611
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 105/400 | train_loss: 1.2423889
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 106/400 | train_loss: 1.2204039
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 107/400 | train_loss: 1.2456142
+***epoch: 108/400 | train_loss: 1.2172592
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 109/400 | train_loss: 1.2300409
+***epoch: 110/400 | train_loss: 1.2341283
+***epoch: 111/400 | train_loss: 1.2200745
+***epoch: 112/400 | train_loss: 1.2094508
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 113/400 | train_loss: 1.2118176
+***epoch: 114/400 | train_loss: 1.2084341
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 115/400 | train_loss: 1.2063562
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 116/400 | train_loss: 1.2048018
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 117/400 | train_loss: 1.2137039
+***epoch: 118/400 | train_loss: 1.2009112
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 119/400 | train_loss: 1.1943136
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 120/400 | train_loss: 1.2212763
+***epoch: 121/400 | train_loss: 1.2348544
+***epoch: 122/400 | train_loss: 1.2232951
+***epoch: 123/400 | train_loss: 1.2027926
+***epoch: 124/400 | train_loss: 1.2537237
+***epoch: 125/400 | train_loss: 1.2415566
+***epoch: 126/400 | train_loss: 1.2063478
+***epoch: 127/400 | train_loss: 1.2172698
+***epoch: 128/400 | train_loss: 1.2213462
+***epoch: 129/400 | train_loss: 1.2006313
+***epoch: 130/400 | train_loss: 1.1964012
+***epoch: 131/400 | train_loss: 1.1848541
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 132/400 | train_loss: 1.1854887
+***epoch: 133/400 | train_loss: 1.1856025
+***epoch: 134/400 | train_loss: 1.1807687
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 135/400 | train_loss: 1.2020333
+***epoch: 136/400 | train_loss: 1.1911712
+***epoch: 137/400 | train_loss: 1.1843128
+***epoch: 138/400 | train_loss: 1.1685813
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 139/400 | train_loss: 1.2133925
+***epoch: 140/400 | train_loss: 1.3355337
+***epoch: 141/400 | train_loss: 1.260572
+***epoch: 142/400 | train_loss: 1.3928633
+***epoch: 143/400 | train_loss: 1.3748214
+***epoch: 144/400 | train_loss: 1.2748361
+***epoch: 145/400 | train_loss: 1.2415918
+***epoch: 146/400 | train_loss: 1.2145947
+***epoch: 147/400 | train_loss: 1.2223259
+***epoch: 148/400 | train_loss: 1.2012136
+***epoch: 149/400 | train_loss: 1.1857702
+***epoch: 150/400 | train_loss: 1.1771696
+***epoch: 151/400 | train_loss: 1.1826807
+***epoch: 152/400 | train_loss: 1.1743679
+***epoch: 153/400 | train_loss: 1.1755987
+***epoch: 154/400 | train_loss: 1.1871281
+***epoch: 155/400 | train_loss: 1.1700895
+***epoch: 156/400 | train_loss: 1.1808006
+***epoch: 157/400 | train_loss: 1.1798245
+***epoch: 158/400 | train_loss: 1.1882023
+***epoch: 159/400 | train_loss: 1.1903698
+***epoch: 160/400 | train_loss: 1.1828246
+***epoch: 161/400 | train_loss: 1.1712178
+***epoch: 162/400 | train_loss: 1.178255
+***epoch: 163/400 | train_loss: 1.1684504
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 164/400 | train_loss: 1.1667137
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 165/400 | train_loss: 1.1702648
+***epoch: 166/400 | train_loss: 1.1624983
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 167/400 | train_loss: 1.1466543
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 168/400 | train_loss: 1.1593393
+***epoch: 169/400 | train_loss: 1.1735682
+***epoch: 170/400 | train_loss: 1.1772819
+***epoch: 171/400 | train_loss: 1.217559
+***epoch: 172/400 | train_loss: 1.1855124
+***epoch: 173/400 | train_loss: 1.1994247
+***epoch: 174/400 | train_loss: 1.1793657
+***epoch: 175/400 | train_loss: 1.1672542
+***epoch: 176/400 | train_loss: 1.177985
+***epoch: 177/400 | train_loss: 1.1582394
+***epoch: 178/400 | train_loss: 1.1521158
+***epoch: 179/400 | train_loss: 1.1794323
+***epoch: 180/400 | train_loss: 1.1542982
+***epoch: 181/400 | train_loss: 1.1528796
+***epoch: 182/400 | train_loss: 1.1600193
+***epoch: 183/400 | train_loss: 1.1596005
+***epoch: 184/400 | train_loss: 1.1649794
+***epoch: 185/400 | train_loss: 1.1529228
+***epoch: 186/400 | train_loss: 1.1495248
+***epoch: 187/400 | train_loss: 1.1437115
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 188/400 | train_loss: 1.1637568
+***epoch: 189/400 | train_loss: 1.1425136
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 190/400 | train_loss: 1.1380174
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 191/400 | train_loss: 1.1379952
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 192/400 | train_loss: 1.1420689
+***epoch: 193/400 | train_loss: 1.1401709
+***epoch: 194/400 | train_loss: 1.1436058
+***epoch: 195/400 | train_loss: 1.1389786
+***epoch: 196/400 | train_loss: 1.1313097
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 197/400 | train_loss: 1.147792
+***epoch: 198/400 | train_loss: 1.1383573
+***epoch: 199/400 | train_loss: 1.13086
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 200/400 | train_loss: 1.132385
+***epoch: 201/400 | train_loss: 1.1360236
+***epoch: 202/400 | train_loss: 1.1324221
+***epoch: 203/400 | train_loss: 1.1313903
+***epoch: 204/400 | train_loss: 1.1352107
+***epoch: 205/400 | train_loss: 1.234007
+***epoch: 206/400 | train_loss: 1.5265126
+***epoch: 207/400 | train_loss: 1.4730151
+***epoch: 208/400 | train_loss: 1.4243113
+***epoch: 209/400 | train_loss: 1.4574689
+***epoch: 210/400 | train_loss: 1.418722
+***epoch: 211/400 | train_loss: 1.3522336
+***epoch: 212/400 | train_loss: 1.3169322
+***epoch: 213/400 | train_loss: 1.259124
+***epoch: 214/400 | train_loss: 1.1986588
+***epoch: 215/400 | train_loss: 1.2106925
+***epoch: 216/400 | train_loss: 1.2534567
+***epoch: 217/400 | train_loss: 1.2251956
+***epoch: 218/400 | train_loss: 1.2035354
+***epoch: 219/400 | train_loss: 1.1798234
+***epoch: 220/400 | train_loss: 1.1670069
+***epoch: 221/400 | train_loss: 1.1703225
+***epoch: 222/400 | train_loss: 1.1673851
+***epoch: 223/400 | train_loss: 1.2509862
+***epoch: 224/400 | train_loss: 1.2915564
+***epoch: 225/400 | train_loss: 1.2609563
+***epoch: 226/400 | train_loss: 1.2521871
+***epoch: 227/400 | train_loss: 1.2338017
+***epoch: 228/400 | train_loss: 1.2096615
+***epoch: 229/400 | train_loss: 1.1935931
+***epoch: 230/400 | train_loss: 1.1674413
+***epoch: 231/400 | train_loss: 1.1748393
+***epoch: 232/400 | train_loss: 1.1604486
+***epoch: 233/400 | train_loss: 1.2152052
+***epoch: 234/400 | train_loss: 1.1640569
+***epoch: 235/400 | train_loss: 1.1795652
+***epoch: 236/400 | train_loss: 1.1446934
+***epoch: 237/400 | train_loss: 1.1414895
+***epoch: 238/400 | train_loss: 1.1447948
+***epoch: 239/400 | train_loss: 1.1360966
+***epoch: 240/400 | train_loss: 1.1522225
+***epoch: 241/400 | train_loss: 1.1394353
+***epoch: 242/400 | train_loss: 1.1293512
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 243/400 | train_loss: 1.1372724
+***epoch: 244/400 | train_loss: 1.1349876
+***epoch: 245/400 | train_loss: 1.1329796
+***epoch: 246/400 | train_loss: 1.1248665
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 247/400 | train_loss: 1.1275521
+***epoch: 248/400 | train_loss: 1.1290065
+***epoch: 249/400 | train_loss: 1.1259761
+***epoch: 250/400 | train_loss: 1.120816
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 251/400 | train_loss: 1.1257351
+***epoch: 252/400 | train_loss: 1.1218598
+***epoch: 253/400 | train_loss: 1.1201889
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 254/400 | train_loss: 1.1266375
+***epoch: 255/400 | train_loss: 1.1210726
+***epoch: 256/400 | train_loss: 1.1344536
+***epoch: 257/400 | train_loss: 1.1239209
+***epoch: 258/400 | train_loss: 1.1252662
+***epoch: 259/400 | train_loss: 1.1341553
+***epoch: 260/400 | train_loss: 1.1205316
+***epoch: 261/400 | train_loss: 1.1265678
+***epoch: 262/400 | train_loss: 1.1170993
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 263/400 | train_loss: 1.118335
+***epoch: 264/400 | train_loss: 1.1175125
+***epoch: 265/400 | train_loss: 1.1175749
+***epoch: 266/400 | train_loss: 1.1157987
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 267/400 | train_loss: 1.1205853
+***epoch: 268/400 | train_loss: 1.1165404
+***epoch: 269/400 | train_loss: 1.1189086
+***epoch: 270/400 | train_loss: 1.1125419
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 271/400 | train_loss: 1.1191572
+***epoch: 272/400 | train_loss: 1.1185707
+***epoch: 273/400 | train_loss: 1.1138285
+***epoch: 274/400 | train_loss: 1.1134582
+***epoch: 275/400 | train_loss: 1.1118852
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 276/400 | train_loss: 1.1152053
+***epoch: 277/400 | train_loss: 1.1144695
+***epoch: 278/400 | train_loss: 1.1134837
+***epoch: 279/400 | train_loss: 1.1128043
+***epoch: 280/400 | train_loss: 1.114166
+***epoch: 281/400 | train_loss: 1.1104764
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 282/400 | train_loss: 1.1225409
+***epoch: 283/400 | train_loss: 1.1114275
+***epoch: 284/400 | train_loss: 1.1209011
+***epoch: 285/400 | train_loss: 1.1202889
+***epoch: 286/400 | train_loss: 1.1158884
+***epoch: 287/400 | train_loss: 1.1246956
+***epoch: 288/400 | train_loss: 1.1324823
+***epoch: 289/400 | train_loss: 1.1257908
+***epoch: 290/400 | train_loss: 1.1956816
+***epoch: 291/400 | train_loss: 1.215705
+***epoch: 292/400 | train_loss: 1.1712911
+***epoch: 293/400 | train_loss: 1.1694923
+***epoch: 294/400 | train_loss: 1.1519422
+***epoch: 295/400 | train_loss: 1.4275753
+***epoch: 296/400 | train_loss: 1.4079854
+***epoch: 297/400 | train_loss: 1.4904556
+***epoch: 298/400 | train_loss: 1.3376166
+***epoch: 299/400 | train_loss: 1.2080863
+***epoch: 300/400 | train_loss: 1.2090003
+***epoch: 301/400 | train_loss: 1.2018285
+***epoch: 302/400 | train_loss: 1.1780855
+***epoch: 303/400 | train_loss: 1.1760573
+***epoch: 304/400 | train_loss: 1.140087
+***epoch: 305/400 | train_loss: 1.136148
+***epoch: 306/400 | train_loss: 1.1488943
+***epoch: 307/400 | train_loss: 1.159885
+***epoch: 308/400 | train_loss: 1.1442984
+***epoch: 309/400 | train_loss: 1.1370852
+***epoch: 310/400 | train_loss: 1.1445814
+***epoch: 311/400 | train_loss: 1.1273756
+***epoch: 312/400 | train_loss: 1.1213849
+***epoch: 313/400 | train_loss: 1.1229206
+***epoch: 314/400 | train_loss: 1.1207756
+***epoch: 315/400 | train_loss: 1.1160943
+***epoch: 316/400 | train_loss: 1.1192246
+***epoch: 317/400 | train_loss: 1.119466
+***epoch: 318/400 | train_loss: 1.1187186
+***epoch: 319/400 | train_loss: 1.1190621
+***epoch: 320/400 | train_loss: 1.1174428
+***epoch: 321/400 | train_loss: 1.1159312
+***epoch: 322/400 | train_loss: 1.112555
+***epoch: 323/400 | train_loss: 1.1151635
+***epoch: 324/400 | train_loss: 1.1162763
+***epoch: 325/400 | train_loss: 1.1113793
+***epoch: 326/400 | train_loss: 1.1115633
+***epoch: 327/400 | train_loss: 1.1108104
+***epoch: 328/400 | train_loss: 1.1108829
+***epoch: 329/400 | train_loss: 1.1171268
+***epoch: 330/400 | train_loss: 1.1141245
+***epoch: 331/400 | train_loss: 1.1059652
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 332/400 | train_loss: 1.1093284
+***epoch: 333/400 | train_loss: 1.1281244
+***epoch: 334/400 | train_loss: 1.1517498
+***epoch: 335/400 | train_loss: 1.1184781
+***epoch: 336/400 | train_loss: 1.1132225
+***epoch: 337/400 | train_loss: 1.1161478
+***epoch: 338/400 | train_loss: 1.1088838
+***epoch: 339/400 | train_loss: 1.1119073
+***epoch: 340/400 | train_loss: 1.1097715
+***epoch: 341/400 | train_loss: 1.1090139
+***epoch: 342/400 | train_loss: 1.1054214
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 343/400 | train_loss: 1.1103097
+***epoch: 344/400 | train_loss: 1.1063294
+***epoch: 345/400 | train_loss: 1.1060154
+***epoch: 346/400 | train_loss: 1.1075615
+***epoch: 347/400 | train_loss: 1.107761
+***epoch: 348/400 | train_loss: 1.1056726
+***epoch: 349/400 | train_loss: 1.1045921
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 350/400 | train_loss: 1.1046965
+***epoch: 351/400 | train_loss: 1.1046943
+***epoch: 352/400 | train_loss: 1.1035194
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 353/400 | train_loss: 1.1070178
+***epoch: 354/400 | train_loss: 1.1056917
+***epoch: 355/400 | train_loss: 1.1048307
+***epoch: 356/400 | train_loss: 1.1055335
+***epoch: 357/400 | train_loss: 1.1014634
++++model saved ! CiteSeer.GraphCL.TransformerConv.pth
+***epoch: 358/400 | train_loss: 1.103716
+***epoch: 359/400 | train_loss: 1.1067141
+***epoch: 360/400 | train_loss: 1.1053327
+***epoch: 361/400 | train_loss: 1.1076537
+***epoch: 362/400 | train_loss: 1.1025353
+***epoch: 363/400 | train_loss: 1.1985281
+***epoch: 364/400 | train_loss: 1.1760012
+***epoch: 365/400 | train_loss: 1.1287552
+***epoch: 366/400 | train_loss: 1.1191954
+***epoch: 367/400 | train_loss: 1.1136769
+***epoch: 368/400 | train_loss: 1.1077003
+***epoch: 369/400 | train_loss: 1.1039298
+***epoch: 370/400 | train_loss: 1.1065479
+***epoch: 371/400 | train_loss: 1.1045208
+***epoch: 372/400 | train_loss: 1.1096282
+***epoch: 373/400 | train_loss: 1.1156257
+***epoch: 374/400 | train_loss: 1.1073982
+***epoch: 375/400 | train_loss: 1.1955633
+***epoch: 376/400 | train_loss: 1.2633499
+***epoch: 377/400 | train_loss: 1.1981628
+***epoch: 378/400 | train_loss: 1.2881945
+***epoch: 379/400 | train_loss: 1.3535859
+***epoch: 380/400 | train_loss: 1.2137674
+***epoch: 381/400 | train_loss: 1.1807708
+***epoch: 382/400 | train_loss: 1.2387626
+***epoch: 383/400 | train_loss: 1.1903028
+***epoch: 384/400 | train_loss: 1.4168201
+***epoch: 385/400 | train_loss: 1.2527572
+***epoch: 386/400 | train_loss: 1.4041345
+***epoch: 387/400 | train_loss: 1.2703113
+***epoch: 388/400 | train_loss: 1.2541422
+***epoch: 389/400 | train_loss: 1.3289171
+***epoch: 390/400 | train_loss: 1.3413972
+***epoch: 391/400 | train_loss: 1.2963258
+***epoch: 392/400 | train_loss: 1.1864977
+***epoch: 393/400 | train_loss: 1.1519604
+***epoch: 394/400 | train_loss: 1.184888
+***epoch: 395/400 | train_loss: 1.1472132
+***epoch: 396/400 | train_loss: 1.1335881
+***epoch: 397/400 | train_loss: 1.1294695
+***epoch: 398/400 | train_loss: 1.1292785
+***epoch: 399/400 | train_loss: 1.1266996
+***epoch: 400/400 | train_loss: 1.1205435
+make the target embedding for backdoor...
+target_embedding is the output embedding of the trigger graph
+backdoor pre-training...
+epoch:1/1 | trigger total loss:-142.1321415156126, lp loss:-168.5102904587984, ln loss:176.1175353527069, loss_lf:14.424787593685323
+epoch:1/2 | trigger total loss:-164.5973732471466, lp loss:-191.8025425672531, ln loss:147.04658156633377, loss_lf:13.451639095903374
+epoch:1/3 | trigger total loss:-168.19712507724762, lp loss:-195.02542924880981, ln loss:136.43960094451904, loss_lf:10.075521258753724
+epoch:1/4 | trigger total loss:-169.93922036886215, lp loss:-196.42954325675964, ln loss:130.17703449726105, loss_lf:6.770250161411241
+epoch:1/5 | trigger total loss:-171.07115238904953, lp loss:-197.25048792362213, ln loss:125.63353298604488, loss_lf:3.4521226709075563
+epoch:1/6 | trigger total loss:-171.89949995279312, lp loss:-197.78369385004044, ln loss:122.05501872301102, loss_lf:0.06138305524655152
+epoch:1/7 | trigger total loss:-172.55079454183578, lp loss:-198.15281695127487, ln loss:119.08859899640083, loss_lf:-3.353874980355613
+epoch:1/8 | trigger total loss:-173.08281511068344, lp loss:-198.4181455373764, ln loss:116.58854368329048, loss_lf:-6.718311864999123
+epoch:1/9 | trigger total loss:-173.5307987332344, lp loss:-198.6148101091385, ln loss:114.43242757022381, loss_lf:-9.981899670790881
+epoch:1/10 | trigger total loss:-173.9227933883667, lp loss:-198.76623231172562, ln loss:112.49448210000992, loss_lf:-13.158259710064158
+epoch:1/11 | trigger total loss:-174.27686524391174, lp loss:-198.88677388429642, ln loss:110.67592333257198, loss_lf:-16.251378959510475
+epoch:1/12 | trigger total loss:-174.60134828090668, lp loss:-198.98563504219055, ln loss:108.94517820328474, loss_lf:-19.230803532758728
+epoch:1/13 | trigger total loss:-174.90129685401917, lp loss:-199.0697604417801, ln loss:107.28930482268333, loss_lf:-22.059645989909768
+epoch:1/14 | trigger total loss:-175.18006652593613, lp loss:-199.14166927337646, ln loss:105.6573847681284, loss_lf:-24.708747617551126
+epoch:1/15 | trigger total loss:-175.43687272071838, lp loss:-199.2031119465828, ln loss:104.06335385143757, loss_lf:-27.144892504205927
+epoch:1/1 | enconder total loss:-195.11598736047745, lt loss:-194.5036478638649, ld loss:-195.72832602262497
+epoch:2/1 | trigger total loss:-175.47002083063126, lp loss:-199.27640748023987, ln loss:106.6604385226965, loss_lf:-29.085606195498258
+epoch:2/2 | trigger total loss:-175.71675235033035, lp loss:-199.34962391853333, ln loss:104.84929324686527, loss_lf:-30.891202203405555
+epoch:2/3 | trigger total loss:-175.92610800266266, lp loss:-199.3926983475685, ln loss:103.3056200966239, loss_lf:-32.75929897185415
+epoch:2/4 | trigger total loss:-176.11914986371994, lp loss:-199.42737025022507, ln loss:101.85029464960098, loss_lf:-34.540707759559155
+epoch:2/5 | trigger total loss:-176.29703611135483, lp loss:-199.4585284590721, ln loss:100.52295662462711, loss_lf:-36.21026547066867
+epoch:2/6 | trigger total loss:-176.4606431722641, lp loss:-199.48381161689758, ln loss:99.26593188941479, loss_lf:-37.770273552596336
+epoch:2/7 | trigger total loss:-176.6112465262413, lp loss:-199.5050139427185, ln loss:98.08572784811258, loss_lf:-39.22049145307392
+epoch:2/8 | trigger total loss:-176.7521435022354, lp loss:-199.52231216430664, ln loss:96.95338512212038, loss_lf:-40.59471935778856
+epoch:2/9 | trigger total loss:-176.8889615535736, lp loss:-199.53752237558365, ln loss:95.80567491054535, loss_lf:-41.90959978848696
+epoch:2/10 | trigger total loss:-177.02429389953613, lp loss:-199.55052107572556, ln loss:94.6146112382412, loss_lf:-43.1911874525249
+epoch:2/11 | trigger total loss:-177.15814048051834, lp loss:-199.56278538703918, ln loss:93.4143981076777, loss_lf:-44.44714497029781
+epoch:2/12 | trigger total loss:-177.2889479994774, lp loss:-199.57440865039825, ln loss:92.21935145184398, loss_lf:-45.659054800868034
+epoch:2/13 | trigger total loss:-177.41641002893448, lp loss:-199.58605724573135, ln loss:91.0467412173748, loss_lf:-46.825991220772266
+epoch:2/14 | trigger total loss:-177.5407183766365, lp loss:-199.59718537330627, ln loss:89.87559174001217, loss_lf:-47.94070214033127
+epoch:2/15 | trigger total loss:-177.65750604867935, lp loss:-199.60789382457733, ln loss:88.77475886046886, loss_lf:-48.98287273943424
+epoch:2/1 | enconder total loss:-195.68956488370895, lt loss:-195.67096120119095, ld loss:-195.70816856622696
+epoch:3/1 | trigger total loss:-178.17389464378357, lp loss:-199.65311819314957, ln loss:80.21565645933151, loss_lf:-49.93751101195812
+epoch:3/2 | trigger total loss:-178.26618611812592, lp loss:-199.6640580892563, ln loss:79.44709550589323, loss_lf:-50.817847818136215
+epoch:3/3 | trigger total loss:-178.35367769002914, lp loss:-199.67360997200012, ln loss:78.67786496505141, loss_lf:-51.62652240693569
+epoch:3/4 | trigger total loss:-178.43705505132675, lp loss:-199.6826508641243, ln loss:77.90320733562112, loss_lf:-52.356681033968925
+epoch:3/5 | trigger total loss:-178.5150746703148, lp loss:-199.69102841615677, ln loss:77.15638114884496, loss_lf:-53.01943874359131
+epoch:3/6 | trigger total loss:-178.58535075187683, lp loss:-199.6997019648552, ln loss:76.50652749836445, loss_lf:-53.61899036169052
+epoch:3/7 | trigger total loss:-178.65192514657974, lp loss:-199.70797395706177, ln loss:75.87206507101655, loss_lf:-54.16713507473469
+epoch:3/8 | trigger total loss:-178.71354949474335, lp loss:-199.71648544073105, ln loss:75.29443158581853, loss_lf:-54.66877882182598
+epoch:3/9 | trigger total loss:-178.77019929885864, lp loss:-199.72498017549515, ln loss:74.77185779064894, loss_lf:-55.12628094851971
+epoch:3/10 | trigger total loss:-178.82400345802307, lp loss:-199.7326591014862, ln loss:74.25410759076476, loss_lf:-55.546409264206886
+epoch:3/11 | trigger total loss:-178.8746143579483, lp loss:-199.74020451307297, ln loss:73.76257885992527, loss_lf:-55.93128401041031
+epoch:3/12 | trigger total loss:-178.92299491167068, lp loss:-199.7476990222931, ln loss:73.28226343542337, loss_lf:-56.283656924963
+epoch:3/13 | trigger total loss:-178.97007793188095, lp loss:-199.7546961903572, ln loss:72.78687979280949, loss_lf:-56.60398577153683
+epoch:3/14 | trigger total loss:-179.01453924179077, lp loss:-199.76152378320694, ln loss:72.31303483247757, loss_lf:-56.89647537469864
+epoch:3/15 | trigger total loss:-179.05724292993546, lp loss:-199.76765990257263, ln loss:71.84610403701663, loss_lf:-57.17316955327988
+epoch:3/1 | enconder total loss:-195.9622283577919, lt loss:-196.1726006269455, ld loss:-195.7518560886383
+epoch:4/1 | trigger total loss:-179.45763063430786, lp loss:-199.78194189071655, ln loss:64.34905693866313, loss_lf:-57.42679734528065
+epoch:4/2 | trigger total loss:-179.49886775016785, lp loss:-199.78608626127243, ln loss:63.841954346746206, loss_lf:-57.66985337436199
+epoch:4/3 | trigger total loss:-179.53928250074387, lp loss:-199.7894042134285, ln loss:63.32431915961206, loss_lf:-57.900791093707085
+epoch:4/4 | trigger total loss:-179.57876908779144, lp loss:-199.79240798950195, ln loss:62.81222143583, loss_lf:-58.124347656965256
+epoch:4/5 | trigger total loss:-179.6179631948471, lp loss:-199.79465758800507, ln loss:62.28117401432246, loss_lf:-58.33669555187225
+epoch:4/6 | trigger total loss:-179.65687155723572, lp loss:-199.7963386774063, ln loss:61.734301779419184, loss_lf:-58.53773970901966
+epoch:4/7 | trigger total loss:-179.69530701637268, lp loss:-199.7977341413498, ln loss:61.177062863484025, loss_lf:-58.72406317293644
+epoch:4/8 | trigger total loss:-179.73392862081528, lp loss:-199.7988361120224, ln loss:60.58328983001411, loss_lf:-58.88290396332741
+epoch:4/9 | trigger total loss:-179.7737545967102, lp loss:-199.80004781484604, ln loss:59.934046521782875, loss_lf:-59.00837555527687
+epoch:4/10 | trigger total loss:-179.81389790773392, lp loss:-199.80041825771332, ln loss:59.252380607649684, loss_lf:-59.122908636927605
+epoch:4/11 | trigger total loss:-179.85482740402222, lp loss:-199.79989397525787, ln loss:58.527931328862906, loss_lf:-59.22646480798721
+epoch:4/12 | trigger total loss:-179.8972271680832, lp loss:-199.79844427108765, ln loss:57.74780097324401, loss_lf:-59.32044415175915
+epoch:4/13 | trigger total loss:-179.94044786691666, lp loss:-199.79605281352997, ln loss:56.92075708974153, loss_lf:-59.400845780968666
+epoch:4/14 | trigger total loss:-179.98447960615158, lp loss:-199.79296606779099, ln loss:56.05025131441653, loss_lf:-59.466540440917015
+epoch:4/15 | trigger total loss:-180.0299466252327, lp loss:-199.7895599603653, ln loss:55.12418548949063, loss_lf:-59.51114735007286
+epoch:4/1 | enconder total loss:-195.86765217781067, lt loss:-196.04808175563812, ld loss:-195.68722236156464
+epoch:5/1 | trigger total loss:-180.26983046531677, lp loss:-199.7954040169716, ln loss:50.44606346171349, loss_lf:-59.52548660337925
+epoch:5/2 | trigger total loss:-180.33063358068466, lp loss:-199.78625267744064, ln loss:49.09684727434069, loss_lf:-59.5570634752512
+epoch:5/3 | trigger total loss:-180.3988698720932, lp loss:-199.77261090278625, ln loss:47.51057137455791, loss_lf:-59.5810571461916
+epoch:5/4 | trigger total loss:-180.47994828224182, lp loss:-199.75377559661865, ln loss:45.55526217725128, loss_lf:-59.58635552227497
+epoch:5/5 | trigger total loss:-180.57498413324356, lp loss:-199.72774386405945, ln loss:43.158104692585766, loss_lf:-59.55848380923271
+epoch:5/6 | trigger total loss:-180.69086009263992, lp loss:-199.69167184829712, ln loss:40.12017446011305, loss_lf:-59.48738223314285
+epoch:5/7 | trigger total loss:-180.81001430749893, lp loss:-199.6662545800209, ln loss:37.19137507118285, loss_lf:-59.39917482435703
+epoch:5/8 | trigger total loss:-180.8952717781067, lp loss:-199.66351640224457, ln loss:35.34139319509268, loss_lf:-59.30362205207348
+epoch:5/9 | trigger total loss:-180.9708924293518, lp loss:-199.6597154736519, ln loss:33.69015708193183, loss_lf:-59.23322340846062
+epoch:5/10 | trigger total loss:-181.05307281017303, lp loss:-199.64574146270752, ln loss:31.752811854705215, loss_lf:-59.19101743400097
+epoch:5/11 | trigger total loss:-181.14866840839386, lp loss:-199.62085109949112, ln loss:29.354622424580157, loss_lf:-59.15275962650776
+epoch:5/12 | trigger total loss:-181.26117032766342, lp loss:-199.58908241987228, ln loss:26.479766133241355, loss_lf:-59.099769219756126
+epoch:5/13 | trigger total loss:-181.37284702062607, lp loss:-199.56650894880295, ln loss:23.76820211019367, loss_lf:-59.02807803452015
+epoch:5/14 | trigger total loss:-181.48078733682632, lp loss:-199.5548204779625, ln loss:21.31187441945076, loss_lf:-58.94094890356064
+epoch:5/15 | trigger total loss:-181.59349471330643, lp loss:-199.54194539785385, ln loss:18.73892413266003, loss_lf:-58.85389992594719
+epoch:5/1 | enconder total loss:-195.7597889304161, lt loss:-195.7355672121048, ld loss:-195.78401064872742
+epoch:6/1 | trigger total loss:-181.9476637840271, lp loss:-199.63639491796494, ln loss:13.347156818024814, loss_lf:-58.8454203158617
+epoch:6/2 | trigger total loss:-182.0580724477768, lp loss:-199.60683530569077, ln loss:10.657618745230138, loss_lf:-58.89611974358559
+epoch:6/3 | trigger total loss:-182.1518800854683, lp loss:-199.58468878269196, ln loss:8.399208003655076, loss_lf:-58.91250912845135
+epoch:6/4 | trigger total loss:-182.23408424854279, lp loss:-199.57758671045303, ln loss:6.6002220483496785, loss_lf:-58.88545310497284
+epoch:6/5 | trigger total loss:-182.3000643849373, lp loss:-199.5836552977562, ln loss:5.315859712660313, loss_lf:-58.81144279241562
+epoch:6/6 | trigger total loss:-182.35597014427185, lp loss:-199.59498965740204, ln loss:4.3215793538838625, loss_lf:-58.731274858117104
+epoch:6/7 | trigger total loss:-182.40360414981842, lp loss:-199.60834920406342, ln loss:3.5442792419344187, loss_lf:-58.66615578532219
+epoch:6/8 | trigger total loss:-182.44620901346207, lp loss:-199.6197315454483, ln loss:2.8532018093392253, loss_lf:-58.62230937182903
+epoch:6/9 | trigger total loss:-182.48392325639725, lp loss:-199.62904739379883, ln loss:2.241777626797557, loss_lf:-58.597476467490196
+epoch:6/10 | trigger total loss:-182.51879674196243, lp loss:-199.63570094108582, ln loss:1.6484863320365548, loss_lf:-58.581882283091545
+epoch:6/11 | trigger total loss:-182.55269187688828, lp loss:-199.64010244607925, ln loss:1.0431700088083744, loss_lf:-58.57524159550667
+epoch:6/12 | trigger total loss:-182.58606350421906, lp loss:-199.6434280872345, ln loss:0.43446340318769217, loss_lf:-58.574115350842476
+epoch:6/13 | trigger total loss:-182.61824196577072, lp loss:-199.64659893512726, ln loss:-0.15656027011573315, loss_lf:-58.5695865303278
+epoch:6/14 | trigger total loss:-182.64861178398132, lp loss:-199.65130698680878, ln loss:-0.6868918817490339, loss_lf:-58.561921656131744
+epoch:6/15 | trigger total loss:-182.67799174785614, lp loss:-199.65582633018494, ln loss:-1.1983290743082762, loss_lf:-58.55671817064285
+epoch:6/1 | enconder total loss:-195.21040469408035, lt loss:-194.46040564775467, ld loss:-195.9604036808014
+epoch:7/1 | trigger total loss:-183.37248641252518, lp loss:-199.6782197356224, ln loss:-14.668471340090036, loss_lf:-58.573389768600464
+epoch:7/2 | trigger total loss:-183.44695538282394, lp loss:-199.6748724579811, ln loss:-16.17902528308332, loss_lf:-58.612473115324974
+epoch:7/3 | trigger total loss:-183.4905762076378, lp loss:-199.6766626238823, ln loss:-16.989687798544765, loss_lf:-58.6419951915741
+epoch:7/4 | trigger total loss:-183.52129817008972, lp loss:-199.68261337280273, ln loss:-17.4809216465801, loss_lf:-58.658072754740715
+epoch:7/5 | trigger total loss:-183.5477278828621, lp loss:-199.6892431974411, ln loss:-17.87389470823109, loss_lf:-58.674364909529686
+epoch:7/6 | trigger total loss:-183.57175493240356, lp loss:-199.69686424732208, ln loss:-18.189894817769527, loss_lf:-58.701725855469704
+epoch:7/7 | trigger total loss:-183.5939467549324, lp loss:-199.70404827594757, ln loss:-18.46786876115948, loss_lf:-58.738291934132576
+epoch:7/8 | trigger total loss:-183.6150348186493, lp loss:-199.71052289009094, ln loss:-18.72926209680736, loss_lf:-58.78209547698498
+epoch:7/9 | trigger total loss:-183.6351436972618, lp loss:-199.71599698066711, ln loss:-18.980893635191023, loss_lf:-58.83412313461304
+epoch:7/10 | trigger total loss:-183.65445417165756, lp loss:-199.72077071666718, ln loss:-19.22624234808609, loss_lf:-58.88906189799309
+epoch:7/11 | trigger total loss:-183.67289263010025, lp loss:-199.72562795877457, ln loss:-19.451194885652512, loss_lf:-58.945439741015434
+epoch:7/12 | trigger total loss:-183.69015383720398, lp loss:-199.7306079864502, ln loss:-19.644779932219535, loss_lf:-59.00743046402931
+epoch:7/13 | trigger total loss:-183.70667207241058, lp loss:-199.73531663417816, ln loss:-19.826683754567057, loss_lf:-59.071143224835396
+epoch:7/14 | trigger total loss:-183.72260355949402, lp loss:-199.73955619335175, ln loss:-20.00355408573523, loss_lf:-59.136601105332375
+epoch:7/15 | trigger total loss:-183.73803734779358, lp loss:-199.74359160661697, ln loss:-20.174140015617013, loss_lf:-59.202034905552864
+epoch:7/1 | enconder total loss:-196.26975816488266, lt loss:-196.40939050912857, ld loss:-196.13012492656708
+epoch:8/1 | trigger total loss:-183.8768760561943, lp loss:-199.75555258989334, ln loss:-22.575334928929806, loss_lf:-59.36232578754425
+epoch:8/2 | trigger total loss:-183.91048783063889, lp loss:-199.75413966178894, ln loss:-23.165808245539665, loss_lf:-59.469539269804955
+epoch:8/3 | trigger total loss:-183.92772448062897, lp loss:-199.7573863863945, ln loss:-23.39245717599988, loss_lf:-59.52917446196079
+epoch:8/4 | trigger total loss:-183.9430115222931, lp loss:-199.7600535750389, ln loss:-23.586202146485448, loss_lf:-59.593152314424515
+epoch:8/5 | trigger total loss:-183.95711010694504, lp loss:-199.76219910383224, ln loss:-23.76378428004682, loss_lf:-59.658920258283615
+epoch:8/6 | trigger total loss:-183.97070854902267, lp loss:-199.76407647132874, ln loss:-23.93541339598596, loss_lf:-59.72547869384289
+epoch:8/7 | trigger total loss:-183.98389607667923, lp loss:-199.76587045192719, ln loss:-24.1011066660285, loss_lf:-59.79123382270336
+epoch:8/8 | trigger total loss:-183.9966560602188, lp loss:-199.76765382289886, ln loss:-24.26278869062662, loss_lf:-59.852639600634575
+epoch:8/9 | trigger total loss:-184.00902473926544, lp loss:-199.76936572790146, ln loss:-24.420330427587032, loss_lf:-59.911669850349426
+epoch:8/10 | trigger total loss:-184.02106511592865, lp loss:-199.77097177505493, ln loss:-24.57432835176587, loss_lf:-59.96956308186054
+epoch:8/11 | trigger total loss:-184.0327591896057, lp loss:-199.77253419160843, ln loss:-24.725697042420506, loss_lf:-60.023966297507286
+epoch:8/12 | trigger total loss:-184.04418116807938, lp loss:-199.77405840158463, ln loss:-24.8730086106807, loss_lf:-60.07764832675457
+epoch:8/13 | trigger total loss:-184.05537110567093, lp loss:-199.77552145719528, ln loss:-25.01784125342965, loss_lf:-60.130266919732094
+epoch:8/14 | trigger total loss:-184.0663225054741, lp loss:-199.77684104442596, ln loss:-25.161085348576307, loss_lf:-60.18231584131718
+epoch:8/15 | trigger total loss:-184.07701885700226, lp loss:-199.77809989452362, ln loss:-25.30180095694959, loss_lf:-60.23286537826061
+epoch:8/1 | enconder total loss:-196.87796992063522, lt loss:-197.59713381528854, ld loss:-196.15880531072617
+epoch:9/1 | trigger total loss:-184.43096125125885, lp loss:-199.793987095356, ln loss:-32.00849535316229, loss_lf:-60.31904394924641
+epoch:9/2 | trigger total loss:-184.44771295785904, lp loss:-199.79183292388916, ln loss:-32.31270339898765, loss_lf:-60.38866153359413
+epoch:9/3 | trigger total loss:-184.45920491218567, lp loss:-199.79146313667297, ln loss:-32.4893340151757, loss_lf:-60.44852031767368
+epoch:9/4 | trigger total loss:-184.470064163208, lp loss:-199.79156267642975, ln loss:-32.65026647411287, loss_lf:-60.5029583722353
+epoch:9/5 | trigger total loss:-184.48036670684814, lp loss:-199.791777074337, ln loss:-32.79967293236405, loss_lf:-60.55577154457569
+epoch:9/6 | trigger total loss:-184.4904247522354, lp loss:-199.7920801639557, ln loss:-32.94575805775821, loss_lf:-60.605381816625595
+epoch:9/7 | trigger total loss:-184.50029426813126, lp loss:-199.79237341880798, ln loss:-33.08899346552789, loss_lf:-60.65425379574299
+epoch:9/8 | trigger total loss:-184.50997644662857, lp loss:-199.79265815019608, ln loss:-33.23071973212063, loss_lf:-60.70106299221516
+epoch:9/9 | trigger total loss:-184.51950472593307, lp loss:-199.79289382696152, ln loss:-33.37080832384527, loss_lf:-60.74727150797844
+epoch:9/10 | trigger total loss:-184.52886563539505, lp loss:-199.7932007908821, ln loss:-33.50847710296512, loss_lf:-60.791302144527435
+epoch:9/11 | trigger total loss:-184.53805887699127, lp loss:-199.79347389936447, ln loss:-33.64370476920158, loss_lf:-60.83502243459225
+epoch:9/12 | trigger total loss:-184.54710471630096, lp loss:-199.79365861415863, ln loss:-33.777892803773284, loss_lf:-60.87844344973564
+epoch:9/13 | trigger total loss:-184.55604445934296, lp loss:-199.79392784833908, ln loss:-33.910693883895874, loss_lf:-60.91957929730415
+epoch:9/14 | trigger total loss:-184.5648483633995, lp loss:-199.79411429166794, ln loss:-34.04229929950088, loss_lf:-60.960704520344734
+epoch:9/15 | trigger total loss:-184.57352370023727, lp loss:-199.79428082704544, ln loss:-34.172281267121434, loss_lf:-61.00123651325703
+epoch:9/1 | enconder total loss:-197.05799114704132, lt loss:-197.81609058380127, ld loss:-196.29989165067673
+epoch:10/1 | trigger total loss:-184.67264068126678, lp loss:-199.80456584692, ln loss:-35.89939749054611, loss_lf:-61.071319818496704
+epoch:10/2 | trigger total loss:-184.6885256767273, lp loss:-199.8020213842392, ln loss:-36.19614273030311, loss_lf:-61.138084039092064
+epoch:10/3 | trigger total loss:-184.69998717308044, lp loss:-199.8001070022583, ln loss:-36.41138661559671, loss_lf:-61.18651980161667
+epoch:10/4 | trigger total loss:-184.7105080485344, lp loss:-199.79827392101288, ln loss:-36.6144779836759, loss_lf:-61.22684094309807
+epoch:10/5 | trigger total loss:-184.71987211704254, lp loss:-199.7981019616127, ln loss:-36.77521084062755, loss_lf:-61.25647458434105
+epoch:10/6 | trigger total loss:-184.72830259799957, lp loss:-199.7993056178093, ln loss:-36.89589159283787, loss_lf:-61.28274416923523
+epoch:10/7 | trigger total loss:-184.73663157224655, lp loss:-199.8004234433174, ln loss:-37.01393715944141, loss_lf:-61.311155274510384
+epoch:10/8 | trigger total loss:-184.74475187063217, lp loss:-199.80130141973495, ln loss:-37.12898381147534, loss_lf:-61.342732191085815
+epoch:10/9 | trigger total loss:-184.75267726182938, lp loss:-199.8017286658287, ln loss:-37.24516182951629, loss_lf:-61.37734657526016
+epoch:10/10 | trigger total loss:-184.7604724764824, lp loss:-199.80209946632385, ln loss:-37.36094869393855, loss_lf:-61.41080746054649
+epoch:10/11 | trigger total loss:-184.7681445479393, lp loss:-199.80235558748245, ln loss:-37.47576927486807, loss_lf:-61.44479723274708
+epoch:10/12 | trigger total loss:-184.7757232785225, lp loss:-199.80257725715637, ln loss:-37.589836419560015, loss_lf:-61.47833274304867
+epoch:10/13 | trigger total loss:-184.78319400548935, lp loss:-199.80274319648743, ln loss:-37.70286559779197, loss_lf:-61.5117292702198
+epoch:10/14 | trigger total loss:-184.79057037830353, lp loss:-199.8029350042343, ln loss:-37.81429194658995, loss_lf:-61.54438525438309
+epoch:10/15 | trigger total loss:-184.79766297340393, lp loss:-199.80384969711304, ln loss:-37.908633248880506, loss_lf:-61.575427040457726
+epoch:10/1 | enconder total loss:-197.26222133636475, lt loss:-198.3556261062622, ld loss:-196.1688156723976
++++backdoor model saved ! CiteSeer.GraphCL.TransformerConv.attack1.pth
+Saved picture with all three losses successfully
+poisoned pretrain end...
+training set (class_id, graph_num): [(0, 132), (1, 200), (2, 200), (3, 200), (4, 200), (5, 200)]
+testing set (class_id, graph_num): [(0, 132), (1, 200), (2, 200), (3, 200), (4, 200), (5, 200)]
+training set (class_id, graph_num): [(0, 132), (1, 200), (2, 200), (3, 200), (4, 200), (5, 200)]
+testing set (class_id, graph_num): [(0, 132), (1, 200), (2, 200), (3, 200), (4, 200), (5, 200)]
+trigegr node feature is tensor([[-1.8831e+02,  1.2733e+01,  7.5003e+00, -8.2626e+00, -1.4539e+01,
+          2.1737e+01,  9.8801e+00, -1.3300e+01, -4.2724e+01,  5.0937e+00,
+         -3.0617e+01,  2.2176e+01, -7.3813e+00,  8.5388e+00,  2.4226e+01,
+         -2.8072e+01, -1.5221e+01,  1.0737e+01,  2.9025e-01, -3.2933e+01,
+         -4.7997e+00, -2.2711e+01,  4.0156e+00,  3.0691e+01,  3.6052e+00,
+         -4.6152e+00,  1.8386e+01,  1.2081e+01,  2.2765e+01, -2.1090e+01,
+          1.4008e+01,  1.2086e+01, -1.5853e+01,  2.2961e+01, -1.1386e+01,
+         -1.6982e+01, -1.6492e+01,  2.3881e+01, -7.5431e+00, -2.8568e+01,
+         -2.3518e+01,  2.3779e+01, -1.7807e+00,  1.1495e+01, -9.8625e+00,
+         -1.6900e+01,  5.6309e+00,  1.2492e+01,  7.1712e+00,  6.0116e+00,
+          2.5985e+01, -6.0161e+00,  1.5124e+01, -3.3227e+01, -7.1223e+00,
+         -5.4453e+00, -8.9167e+00, -1.9688e+01,  2.0743e+01, -1.3595e+01,
+          1.9863e+01, -2.2705e+00, -1.0658e+01, -1.8606e+01, -1.6759e+01,
+          2.4846e+01, -1.3610e+01, -2.8945e+01, -2.5691e+01, -3.1075e+01,
+          1.9269e+01, -1.1424e+01, -1.7582e+01,  2.1359e+01,  2.5728e+01,
+          2.2897e+01, -3.6811e+00, -2.2481e+00, -7.0369e+00, -2.5150e+01,
+         -2.8477e+00, -2.0972e+01, -8.8032e+00,  2.9279e+00,  8.0612e+00,
+          1.0543e+01, -3.6902e+01,  1.6560e+01, -1.8861e+01, -1.5420e+01,
+          2.0044e+01,  1.6779e+01,  2.5643e+01, -2.0460e+01, -2.9878e+01,
+         -1.8528e+01, -1.9195e+00,  7.2010e+00, -5.6377e+00, -2.1814e+01],
+        [-2.2547e+01,  2.2433e+00,  1.7190e+00,  2.1343e-02, -9.5945e-01,
+          2.8312e-01,  9.4544e-01,  5.2388e-01,  3.0158e-01,  5.0100e-01,
+         -3.8221e-01, -5.9249e-01, -2.3191e-01,  1.0234e+00, -7.4233e-02,
+         -5.0873e-02,  3.6778e-01, -2.9136e-01,  2.3633e-01,  2.0981e-02,
+         -1.9647e-01, -3.2532e-01,  5.1915e-01, -7.7820e-01,  1.0249e+00,
+          1.7974e-01,  3.5467e-01, -1.1206e+00, -9.2966e-02, -7.2397e-01,
+          2.7528e-01,  3.1093e-01, -2.8057e-01, -2.3593e-01, -1.5913e-01,
+         -1.7041e-01,  4.0317e-01,  9.6341e-01, -3.6517e-01, -5.5904e-01,
+         -5.1343e-01,  1.3286e-01, -4.8894e-01,  2.8485e-01,  1.4643e-01,
+          9.9104e-02, -8.9744e-01,  4.4004e-01,  2.3851e-01, -2.9195e-01,
+          3.0030e-01, -5.5519e-01,  1.2419e-01,  2.7279e-01, -3.3689e-01,
+         -6.8573e-01, -4.3598e-01,  2.3745e-01, -6.6537e-01,  2.9413e-01,
+         -1.0839e-01,  3.4668e-01,  7.3355e-01, -1.5405e-01,  9.1138e-02,
+         -2.0593e-01,  3.4037e-01,  4.4012e-01, -1.3717e-01, -3.7438e-01,
+          1.6039e-01,  2.2551e-01, -4.6534e-01,  8.4346e-01,  2.3161e-01,
+          2.3837e-02, -1.1839e-01,  3.9341e-01, -8.1049e-01, -1.2496e-01,
+         -1.4644e-01,  6.2077e-01,  2.9598e-01,  2.6252e-01,  2.2899e-01,
+          4.0797e-01, -1.8295e-01, -3.4318e-01, -4.0808e-01, -4.5704e-01,
+          1.1271e-01,  2.3432e-01, -9.2922e-02, -5.1809e-02, -2.1795e-01,
+         -1.0571e-01, -8.8222e-02, -1.9419e-01, -3.7985e-01,  1.3767e-01],
+        [-1.2808e+02,  8.5645e+00,  6.9411e+00, -2.5300e+00, -5.3912e+00,
+          7.6571e+00,  4.8349e+00, -4.7062e+00, -1.0245e+01,  3.7295e+00,
+         -7.5989e+00,  3.8097e+00, -6.2758e-02,  6.4193e+00,  3.6038e+00,
+         -4.7775e+00, -1.7737e+00, -4.7223e+00, -8.8736e-02, -7.0493e+00,
+         -4.4062e+00, -8.9791e+00,  4.4160e+00,  3.7395e+00,  3.4198e+00,
+         -1.5189e+00,  4.1411e+00, -1.5403e+00,  7.0675e+00, -4.8756e+00,
+          4.1117e+00,  1.1889e+00, -4.2559e+00,  1.2045e+00, -1.4083e+00,
+         -3.9318e+00, -1.9519e+00,  4.8081e+00,  2.7655e-01, -1.2228e+01,
+         -1.0757e+01,  5.4107e+00, -8.3299e+00,  6.1393e+00, -3.5826e+00,
+         -4.2298e+00, -1.8326e-01,  4.4511e+00,  1.5134e+00, -3.3429e-01,
+          1.0169e+01, -8.2139e+00,  4.4233e+00, -8.6715e+00, -3.2661e+00,
+         -6.3041e+00, -2.6960e+00,  1.5477e+00,  1.1913e+00, -2.1591e+00,
+          5.3571e+00, -3.4416e+00, -3.1236e+00, -5.8861e+00, -2.4326e+00,
+          3.6780e+00, -3.1429e+00, -7.0854e+00, -7.7024e+00, -7.4975e+00,
+          6.7951e+00, -5.2983e+00, -2.3680e+00,  8.0816e+00,  3.3525e+00,
+          6.0694e+00,  3.8051e-01, -1.7758e+00, -6.3021e-01, -2.6047e+00,
+         -1.1296e+00, -3.8873e+00, -3.2782e+00,  1.0015e+00,  3.7797e+00,
+          3.1954e+00, -9.4760e+00, -1.5962e-01, -2.5431e+00, -6.1872e+00,
+          2.9154e+00,  5.1623e+00,  2.2293e+00, -5.6550e+00, -4.4401e+00,
+         -2.8096e+00,  1.7492e+00,  2.7387e+00,  5.4779e-01, -2.6321e+00]],
+       device='cuda:0')
+no defense
+pg le:0.0001
+successfully load backdoor pre-trained weights for gnn! @ ./results/distribution/CiteSeer_Feb.03_22.57.04_TransformerConv_prompt_none_0.0_ours_trigger_graph_degree_min_0.05_0.05_0.5/pre_trained_gnn/CiteSeer.GraphCL.TransformerConv.attack1.pth
+head:0.01
+***************************** eppch 1**************************
+1/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 184.32274699
+1/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 166.82088423
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7403 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.8820 
+-------------------------------------
+***************************** eppch 2**************************
+2/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 159.65846527
+2/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 154.66484654
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7447 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.8659 
+-------------------------------------
+***************************** eppch 3**************************
+3/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 152.51847124
+3/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 150.97649312
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7482 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.8197 
+-------------------------------------
+***************************** eppch 4**************************
+4/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 149.66197443
+4/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 148.72255957
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7465 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.8026 
+-------------------------------------
+***************************** eppch 5**************************
+5/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 148.45114434
+5/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 147.76760614
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7500 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.7672 
+-------------------------------------
+***************************** eppch 6**************************
+6/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 147.41413510
+6/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 146.28361571
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.7438 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.7554 
+-------------------------------------
+***************************** eppch 7**************************
+7/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 143.70732164
+7/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 141.61150634
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8180 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.7425 
+-------------------------------------
+***************************** eppch 8**************************
+8/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 140.96265018
+8/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 140.01229513
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8145 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.7307 
+-------------------------------------
+***************************** eppch 9**************************
+9/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 139.68566120
+9/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 139.02137101
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8127 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.6910 
+-------------------------------------
+***************************** eppch 10**************************
+10/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 138.83317506
+10/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 138.37687361
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8145 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.6695 
+-------------------------------------
+***************************** eppch 11**************************
+11/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 138.26758802
+11/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 138.02941501
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8145 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.6534 
+-------------------------------------
+***************************** eppch 12**************************
+12/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 137.86342025
+12/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 138.02222383
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8171 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.6330 
+-------------------------------------
+***************************** eppch 13**************************
+13/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 137.63759112
+13/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 137.40360749
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8180 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.5515 
+-------------------------------------
+***************************** eppch 14**************************
+14/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 137.26654482
+14/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 137.17491162
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8180 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.4646 
+-------------------------------------
+***************************** eppch 15**************************
+15/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 137.16594946
+15/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 137.32217216
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8171 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.4624 
+-------------------------------------
+***************************** eppch 16**************************
+16/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 136.88409245
+16/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 136.61897457
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8171 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.6202 
+-------------------------------------
+***************************** eppch 17**************************
+17/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 136.78089023
+17/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 136.89372015
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8136 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.5805 
+-------------------------------------
+***************************** eppch 18**************************
+18/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 136.80262160
+18/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 136.43317258
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8145 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.7639 
+-------------------------------------
+***************************** eppch 19**************************
+19/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 136.95555556
+19/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 136.26896429
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8127 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.7779 
+-------------------------------------
+***************************** eppch 20**************************
+20/20 frozen gnn | frozen prompt | *tune answering function...
+epoch 1/1 | loss: 136.50317442
+20/20  frozen gnn | *tune prompt |frozen answering function...
+epoch 1/1 | loss: 136.52678561
+========test the clean accuracy on the downstream model========
+-------------------------------------
+Final True Acc: 0.8127 
+-------------------------------------
+========test the backdoor accuracy on the downstream model========
+the ASR of the target backdoor attack...
+-------------------------------------
+Final True Target ASR: 0.8047 
+-------------------------------------
