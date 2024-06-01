@@ -1,3 +1,7 @@
+## CrossBA
+The code for paper: ["Cross-Context Backdoor Attacks against Graph Prompt Learning"](https://arxiv.org/abs/2405.17984)
+
+We will further review the code and update the resources in the future.
 
 ## ProG
 
